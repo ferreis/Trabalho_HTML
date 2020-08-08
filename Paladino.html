@@ -1,0 +1,357 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<head>
+		<title>D&D </title>
+		<style>
+			form 	
+			{
+			border: 3px solid #f1f1f1;
+			}
+			li 
+			{
+				float: left;
+			}
+
+			li a, .dropbtn 
+			{
+				display: inline-block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+
+			li a:hover, .dropdown:hover .dropbtn 
+			{
+				background-color: red;
+			}
+
+			li.dropdown 
+			{
+				display: inline-block;
+			}
+
+			.dropdown-content 
+			{
+				display: none;
+				position: absolute;
+				background-color: #f9f9f9;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				z-index: 1;
+			}
+
+			.dropdown-content a 
+			{
+				color: black;
+				padding: 12px 16px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+
+			.dropdown-content a:hover {background-color: #f1f1f1}
+
+			.dropdown:hover .dropdown-content 
+			{
+				display: block;
+			}
+			input[type=text], input[type=password] 
+			{
+				width: 90%;
+				padding: 12px 20px;
+				margin: 8px 0;
+				display: inline-block;
+				border: 1px solid #ccc;
+				box-sizing: border-box;
+			}
+
+			button 
+			{
+				background-color: #4CAF50;
+				color: white;
+				padding: 5px 10px;
+				margin: 2px 0;
+				border: none;
+				cursor: pointer;
+				width: 91%;
+			}
+
+			button:hover 
+			{
+				opacity: 0.8;
+			}
+
+			.cancelbtn 
+			{
+				width: auto;
+				padding: 10px 10px;
+				background-color: #f44336;
+			}
+
+			.imgcontainer 
+			{
+				text-align: center;
+				margin: 20px 0 10px 0;
+			}
+
+			img.avatar 
+			{
+				width: 50%;
+				border-radius: 50%;
+			}
+
+			.container 
+			{
+				padding: 16px;
+			}
+
+			span.psw 
+			{
+				float: right;
+				padding-top: 16px;
+			}
+
+			
+			@media screen and (max-width: 300px) 
+			{
+				span.psw {
+				   display: block;
+				   float: none;
+				}
+				.cancelbtn {
+				   width: 100%;
+				}
+			}
+			
+			div.container 
+			{
+				width: 90%;
+				border: 0px solid gray;
+			}
+			
+			ul 
+			{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+			}
+
+			li
+			{
+				float: left;
+			}
+
+			
+			header
+			{
+				padding: 5em;
+				color: white;
+				background-image: url("Backgif2.gif");
+				clear: left;
+				text-align: center;
+			}
+
+			nav 
+			{
+				float: left;
+				max-width: 260px;
+				margin: 10px;
+				padding: 1em;
+			}
+
+			nav ul 
+			{
+				list-style-type: none;
+				padding: 0;
+			}
+			   
+			nav ul a 
+			{
+				text-decoration: none;
+				
+			}
+
+			article 
+			{
+			
+				margin-left: 170px;
+				border-left: 1px solid gray;
+				padding: 1em;
+				overflow: hidden;
+			}
+			
+			meutext
+			{
+				text-shadow: 2px 1px black;
+				color:white;
+			}
+			meutitulo
+			{
+				text-shadow: 2px 1px black;
+				color:Coral;
+			}
+			
+			body 
+			{
+				background-image: url("Background.jpg");
+			
+			}
+			audio
+			{
+				opacity: 0.5;
+				width:1250px
+			}
+			#images
+			{
+				width: 250px;
+				height: 300px;
+			}		
+			
+			
+		</style>
+		<audio autoplay>
+			<source src="Song.mp3" type="audio/mpeg">
+.
+		</audio>
+		</head>
+		<body>
+		
+			<div class="container">
+			
+				<ul>
+					<li><a class="active" href=index.html>Inicio</a></li>
+					<li><a href=Memes.html>Memes</a></li>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Raças</a>
+						<div class="dropdown-content">
+						<a href=Anao.html>Anão</a>
+						<a href=Elfo.html>Elfo</a>
+						<a href=Halfling.html>Halfling</a>	
+						<a href=Humano.html>Humano</a>
+						<a href=Draconato.html>Draconato</a>
+						<a href=Gnomo.html>Gnomo</a>
+						<a href=Meio-Elfo.html>Meio-Elfo</a>
+						<a href=Meio-Orc.html>Meio-Orc</a>
+						<a href=Tiefling.html>Tiefling</a>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Classes</a>
+						<div class="dropdown-content">
+						<a href=Barbaro.html>Bárbaro</a>
+						<a href=Bardo.html>Bardo</a>
+						<a href=Bruxo.html>Bruxo</a>
+						<a href=Clérigo.html>Clérigo</a>
+						<a href=Druida.html>Druida</a>
+						<a href=Feiticeiro.html>Feiticeiro</a>
+						<a href=Guerreiro.html>Guerreiro</a>
+						<a href=Ladino.html>Ladino</a>
+						<a href=Mago.html>Mago</a>
+						<a href=Monge.html>Monge</a>
+						<a href=Paladino.html>Paladino</a>
+						<a href=Patrulheiro.html>Patrulheiro</a>
+					<li><a href=Mapa.html>Maps do site</a></li>
+				</ul>	
+				
+				<header>
+					
+				   <center><h1 style="color:Coral";>Paladino</h1></center><br/ > 
+				</header>
+				
+				<nav>
+					<ul>
+						<form action="/action_page.php">
+						  <div class="imgcontainer">
+							<img src="0006.gif" alt="Avatar" class="avatar">
+						  </div>
+
+						  <div class="container">
+							<label><b>Usuário</b></label>
+							<input type="text" placeholder="Enter Username" name="uname" required>
+
+							<label><b>Senha</b></label>
+							<input type="password" placeholder="Enter Password" name="psw" required>
+								
+							<button type="submit">Login</button>
+							<input type="checkbox" checked="checked"> Lembrar
+						  </div>
+
+						  <div class="container" style="background-color:#f1f1f1">
+							<span class="psw">Esqueci a <a href="#">senha?</a></span>
+							<a href="registro.html"><button type="button" class="cancelbtn">Registrar</button>							
+						  </div>
+							<p>  </p><a href="#"><button type="button" onclick="document.getElementById('demo').innerHTML = Date()"> Data e Hora.</button></a></li>
+							<p style="color:White" id="demo"></p>
+						</form>
+					</ul>						
+				</nav>
+
+			<article>				
+					<meutext>
+					<img id="images" src="Paladino.jpg"></br >
+					Vestido em uma armadura de placas que reluz a luz do sol, a despeito da poeira e sujeira de uma longa viagem,
+					um humano larga sua espada e escudo e coloca suas mãos em um homem fatalmente ferido. Radiação divina brilha de suas mãos, 
+					o ferimento do homem se fecha e seus olhos se arregalam com espanto. Um anão se esgueira por detrás de um afloramento,
+					seu manto negro o torna praticamente invisível durante a noite, e observa uma banda de guerra orc celebrando sua recente vitória.
+					Silenciosamente, ele espreita em meio a eles e sussurra seu juramento e dois orcs morrem antes mesmo de perceberem que ele estava ali. 
+					Com um cabelo prateado que brilha com um raio de luz que parece iluminar apenas ele, um elfo gargalha com exultação. Sua lança golpeia num piscar,
+					como o dos seus olhos, perfurando de novo e de novo em um gigante contorcendo-se, até que finalmente sua luz supera a escuridão dele.
+					Seja lá quais forem suas origens e suas missões, paladinos são unidos pelos seus juramentos de se imporem contra as forças do mal. 
+					Quer seja jurado ante o altar de um deus com um sacerdote como testemunha, quer seja em um clareira sagrada diante dos espíritos da
+					natureza e seres feéricos, ou em um momento de desespero e aflição com os mortos como únicas testemunhas, 
+					o juramento de um paladino é um laço poderoso. Ele é uma fonte de poder que transforma um guerreiro devotado em um campeão abençoado. 
+					</br >
+					</br >
+					<h3>A CAUSA DA JUSTIÇA</h3>
+					Um paladino jura defender a justiça e integridade, se manter com as coisas boas do mundo contra a invasão das trevas e caçar as forças do mal
+					onde quer que ela se esconda. Diferentes paladinos se focam em vários aspectos da causa da justiça, mas todos estão sujeitos aos juramentos 
+					que lhes concede poder para fazer seu trabalho sagrado. Embora, muitos paladinos serem devotos de deuses do bem, o poder de um paladino vem
+					tanto do comprometimento com a justiça per si, quanto de um deus. Os paladinos treinam por anos para aprender as perícias de combate, 
+					dominando uma variedade de armas e armaduras. Mesmo assim, suas perícias marciais são secundárias ao poder mágico que ele empunha:
+					o poder de curar os doentes e feridos, de destruir os cruéis e os mortos-vivos e de proteger os inocentes e aqueles que se 
+					unirem a eles na luta pela justiça.  
+
+					<h3>ALÉM DA VIDA MUNDANA </h3>
+					Praticamente por definição, a vida de um paladino é uma vida de aventura. A menos que um ferimento permanente o tenha impedido de se 
+					aventurar por um tempo, cada paladino vive nas linhas de frente da batalha cósmica contra o mal. Guerreiros são raros o suficiente nas fileiras 
+					de milícias e exércitos do mundo, mas ainda menos pessoas podem reivindicar a verdadeira vocação de um paladino.
+					Quando eles recebem o chamado, esses guerreiros deixa suas antigas ocupações e se armam para lutar contra o mal.
+					Algumas vezes, seus juramentos os levam a servir à coroa como líderes de grupos de elite de cavaleiros, mas até entre esses, 
+					sua lealdade primária é com a causa da justiça, não com a coroa ou país. Paladinos aventureiros levam seus trabalhos a sério.
+					A investigação de uma ruina antiga ou de uma cripta empoeirada pode ser uma missão guiada por um proposito maior que a aquisição de tesouro.
+					O mal espreita nas masmorras e florestas primitivas e, até mesmo, a menor vitória contra ele pode inclinar a balança cósmica para longe do esquecimento. 
+ 
+					<h3>CRIANDO UM PALADINO</h3>
+					O aspecto mais importante de um personagem paladino é a natureza da sua busca sagrada. 
+					Apesar da característica de classe relacionada ao seu juramento não aparecer até você chegar ao 3° nível,
+					planeje a escolha ao ler a descrição dos juramentos no final da classe. Você é um servo devotado do bem,
+					leal aos deuses da justiça e honra, um cavaleiro sagrado em uma armadura brilhante aventurando-se para destruir o mal? 
+					Você é um glorioso campeão da luz, acalentando todas as belezas que se opõem contra as sombras, 
+					um cavaleiro cujo juramento descende de tradições mais antigas que muitos deuses?
+					Ou você é amargurado solitário que jurou se vingar contra aqueles que fizeram grande mal,
+					enviado como um anjo da morte pelos deuses ou guiado pela sua própria vingança?
+					O apêndice B tem uma lista de muitos deuses adorados por paladinos através do multiverso, como Torm, Tyr,
+					Heironeous, Paladine, Kiri-Jolith, Dol Arrah, o Chama Prateada, Bahamut, Athena, Re-Horakhty e Heimdall.
+					Como você vivenciou o seu chamado para servir como paladino? Você ouviu um sussurro de um deus ou anjo oculto enquanto você rezava?
+					Outro paladino sentiu o potencial dentro de você e decidiu treina-o como um escudeiro?
+					Ou algum terrível evento – a destruição da sua casa, talvez – o levou às suas buscas? 
+					Talvez você tenha tropeçado em um bosque sagrado ou num enclave élfico escondido e se 
+					encontrou compelido a proteger todos esses refugiados da bondade e beleza.
+					Ou você pode ter recobrado de suas memorias mais antigas que a vida de paladino era sua vocação,
+					praticamente como se você tivesse sido enviado para o mundo com esse propósito estampado em sua alma.
+					Como guardiões contra as forças das trevas, paladinos raramente detém qualquer alinhamento maligno. 
+					A maioria deles trilham o caminho da caridade e justiça. Considere como a cor da sua tendência irá influenciar 
+					na sua busca sagrada e a maneira como ela conduzirá você diante dos deuses e dos mortais. Seu juramento e tendência
+					devem ser harmônicos ou seu juramento deve representar padrões de comportamento que você ainda não tenha alcançado. 
+ 
+					
+					</br ><video width="420" height="340" controls> <source src="Paladino.mp4" type="video/mp4"></video></br >
+ 
+					Fonte: <a href="https://www.youtube.com/channel/UCTE8d9Wa8vesRNpQI4CbvWg/featured"	style="color:white">Vertente Geek</a>
+					</meutext>
+			</article>
+		</div>
+	</body>
+<html>

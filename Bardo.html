@@ -1,0 +1,362 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<head>
+		<title>D&D </title>
+		<style>
+			form 	
+			{
+			border: 3px solid #f1f1f1;
+			}
+			li 
+			{
+				float: left;
+			}
+
+			li a, .dropbtn 
+			{
+				display: inline-block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+
+			li a:hover, .dropdown:hover .dropbtn 
+			{
+				background-color: red;
+			}
+
+			li.dropdown 
+			{
+				display: inline-block;
+			}
+
+			.dropdown-content 
+			{
+				display: none;
+				position: absolute;
+				background-color: #f9f9f9;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				z-index: 1;
+			}
+
+			.dropdown-content a 
+			{
+				color: black;
+				padding: 12px 16px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+
+			.dropdown-content a:hover {background-color: #f1f1f1}
+
+			.dropdown:hover .dropdown-content 
+			{
+				display: block;
+			}
+			input[type=text], input[type=password] 
+			{
+				width: 90%;
+				padding: 12px 20px;
+				margin: 8px 0;
+				display: inline-block;
+				border: 1px solid #ccc;
+				box-sizing: border-box;
+			}
+
+			button 
+			{
+				background-color: #4CAF50;
+				color: white;
+				padding: 5px 10px;
+				margin: 2px 0;
+				border: none;
+				cursor: pointer;
+				width: 91%;
+			}
+
+			button:hover 
+			{
+				opacity: 0.8;
+			}
+
+			.cancelbtn 
+			{
+				width: auto;
+				padding: 10px 10px;
+				background-color: #f44336;
+			}
+
+			.imgcontainer 
+			{
+				text-align: center;
+				margin: 20px 0 10px 0;
+			}
+
+			img.avatar 
+			{
+				width: 50%;
+				border-radius: 50%;
+			}
+
+			.container 
+			{
+				padding: 16px;
+			}
+
+			span.psw 
+			{
+				float: right;
+				padding-top: 16px;
+			}
+
+			
+			@media screen and (max-width: 300px) 
+			{
+				span.psw {
+				   display: block;
+				   float: none;
+				}
+				.cancelbtn {
+				   width: 100%;
+				}
+			}
+			
+			div.container 
+			{
+				width: 90%;
+				border: 0px solid gray;
+			}
+			
+			ul 
+			{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+			}
+
+			li
+			{
+				float: left;
+			}
+
+			
+			header
+			{
+				padding: 5em;
+				color: white;
+				background-image: url("Backgif2.gif");
+				clear: left;
+				text-align: center;
+			}
+
+			nav 
+			{
+				float: left;
+				max-width: 260px;
+				margin: 10px;
+				padding: 1em;
+			}
+
+			nav ul 
+			{
+				list-style-type: none;
+				padding: 0;
+			}
+			   
+			nav ul a 
+			{
+				text-decoration: none;
+				
+			}
+
+			article 
+			{
+			
+				margin-left: 170px;
+				border-left: 1px solid gray;
+				padding: 1em;
+				overflow: hidden;
+			}
+			
+			meutext
+			{
+				text-shadow: 2px 1px black;
+				color:white;
+			}
+			meutitulo
+			{
+				text-shadow: 2px 1px black;
+				color:Coral;
+			}
+			
+			body 
+			{
+				background-image: url("Background.jpg");
+			
+			}
+			audio
+			{
+				opacity: 0.5;
+				width:1250px
+			}
+			#images
+			{
+				width: 250px;
+				height: 300px;
+			}		
+			
+			
+		</style>
+		<audio autoplay>
+			<source src="Song.mp3" type="audio/mpeg">
+.
+		</audio>
+		</head>
+		<body>
+		
+			<div class="container">
+			
+				<ul>
+					<li><a class="active" href=index.html>Inicio</a></li>
+					<li><a href=Memes.html>Memes</a></li>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Raças</a>
+						<div class="dropdown-content">
+						<a href=Anao.html>Anão</a>
+						<a href=Elfo.html>Elfo</a>
+						<a href=Halfling.html>Halfling</a>	
+						<a href=Humano.html>Humano</a>
+						<a href=Draconato.html>Draconato</a>
+						<a href=Gnomo.html>Gnomo</a>
+						<a href=Meio-Elfo.html>Meio-Elfo</a>
+						<a href=Meio-Orc.html>Meio-Orc</a>
+						<a href=Tiefling.html>Tiefling</a>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Classes</a>
+						<div class="dropdown-content">
+						<a href=Barbaro.html>Bárbaro</a>
+						<a href=Bardo.html>Bardo</a>
+						<a href=Bruxo.html>Bruxo</a>
+						<a href=Clérigo.html>Clérigo</a>
+						<a href=Druida.html>Druida</a>
+						<a href=Feiticeiro.html>Feiticeiro</a>
+						<a href=Guerreiro.html>Guerreiro</a>
+						<a href=Ladino.html>Ladino</a>
+						<a href=Mago.html>Mago</a>
+						<a href=Monge.html>Monge</a>
+						<a href=Paladino.html>Paladino</a>
+						<a href=Patrulheiro.html>Patrulheiro</a>
+					<li><a href=Mapa.html>Mapa do site</a></li>
+				</ul>	
+				
+				<header>
+					
+				   <center><h1 style="color:Coral";> Bardo </h1></center><br/ > 
+				</header>
+				
+				<nav>
+					<ul>
+						<form action="/action_page.php">
+						  <div class="imgcontainer">
+							<img src="0006.gif" alt="Avatar" class="avatar">
+						  </div>
+
+						  <div class="container">
+							<label><b>Usuário</b></label>
+							<input type="text" placeholder="Enter Username" name="uname" required>
+
+							<label><b>Senha</b></label>
+							<input type="password" placeholder="Enter Password" name="psw" required>
+								
+							<button type="submit">Login</button>
+							<input type="checkbox" checked="checked"> Lembrar
+						  </div>
+
+						  <div class="container" style="background-color:#f1f1f1">
+							<span class="psw">Esqueci a <a href="#">senha?</a></span>
+							<a href="registro.html"><button type="button" class="cancelbtn">Registrar</button>							
+						  </div>
+							<p>  </p><a href="#"><button type="button" onclick="document.getElementById('demo').innerHTML = Date()"> Data e Hora.</button></a></li>
+							<p style="color:White" id="demo"></p>
+						</form>
+					</ul>						
+				</nav>
+
+			<article>				
+					<meutext>
+					<img id="images" src="Bardo.jpg"></br >
+					
+					Cantarolando enquanto entrelaça os seus dedos
+					em volta de um monumento antigo em uma ruina
+					a muito esquecida, uma meio-elfa vestida em couros gastos encontra o conhecimento que brota de sua
+					mente, conjurado através da magia de sua música – conhecimento do povo que construiu o monumento
+					e a saga mística é descrita. Um austero guerreiro humano bate sua espada ritmicamente contra sua brunea,
+					ditando o andamento  do seu canto de guerra e exortando bravura e heroísmo em seus companheiros. A magia da sua canção os fortalece e encoraja.
+					Gargalhando enquanto entoa sua citara, uma gnoma tece sua sutil magia sobre os nobres reunidos, garantindo que as palavras dos seus companheiros 
+					serão bem recebidas. Não importa se um escolar, escaldo ou malandro,
+					o bardo tece sua magia através de palavras e
+					música para inspirar aliados, desmoralizar
+					oponentes, manipular mentes, criar ilusões e,
+					até mesmo, curar ferimentos.    
+					</br >
+					</br >
+					<h3>MÚSICA E MAGIA</h3>
+					No mundo de D&D, palavras e música não são meras vibrações do ar, mas vocalizações com poder próprio.
+					O bardo é um mestre da canção, discurso e a magia contida neles.
+					Os bardos dizem que o multiverso foi criado a partir da palavra, que as palavras dos deuses lhe deram forma,
+					e os ecos dessas Palavras de Criação primordiais ainda ressoam através do cosmos.
+					A música dos bardos é uma tentativa de capitar e aproveitar esses ecos, sutilmente tecidas em suas magias e poderes.
+					A maior força dos bardos é sua completa versatilidade.
+					Muitos bardos preferem ficar as margens do combate, usando suas magias para inspirar seus aliados e atrapalhar seus oponentes à distância.
+					Porém, os bardos são capazes de se defender em combate corporal, se necessário, usando suas magias para aprimorar suas espadas e armaduras.
+					Suas magias inclinam-se para os encantamentos e ilusões ao invés de magias notavelmente destrutivas.
+					Eles possuem um vasto conhecimento de muitos assuntos e uma aptidão natural que lhes permite fazer praticamente tudo bem.
+					Bardos se tornam mestres dos talentos que eles definem em suas mentes para a perfeição, de performance musical até conhecimento exotérico. 
+					
+					<h3>APRENDENDO COM A EXPERIÊNCIA </h3>
+					Os verdadeiros bardos não são comuns no mundo.
+					Nem todo menestrel cantando em uma taverna ou bobo saltitando na corte real é um bardo.
+					Descobrir a magia escondida na música requer árduo estudo e um pouco de talento natural que a maioria dos trovadores e malabaristas não tem. 
+					No entanto, pode ser difícil perceber a diferença entre esses artistas e bardos verdadeiros.
+					A vida de um bardo é gasta vagando através dos lugares coletando conhecimento, contando histórias e vivendo da gratidão das audiências, 
+					muito parecido com qualquer outro artista. Porém, um profundo conhecimento, um nível de perícia musical e um toque de magia diferencia os bardos dos seus companheiros. 
+					Com raridade os bardos se estabelecem em algum lugar por um longo tempo e, seu desejo natural por viagens – para encontrar novos contos para contar, 
+					novas perícias para aprender e novas descobertas além do horizonte – tornam a carreira de aventureiro um 
+					chamado natural. Cada aventura é uma oportunidade de aprendizado, de praticar uma variedade de perícias, 
+					de entrar em tumbas a muito esquecidas, de descobrir antigos trabalhos místicos, de decifrar tomos ancestrais,
+					de viajar para lugares estranhos ou de encontrar criaturas exóticas.
+					Os bardos adoram acompanhar heróis para testemunhar seus feitos em primeira mão. 
+					Um bardo que puder contar uma história incrivelmente inspiradora de feitos pessoais ganhará renome dentre outros bardos.
+					De fato, após contar tantas histórias sobre os poderosos feitos conseguidos por heróis,
+					muitos bardos tomam essa inspiração em seus corações e assumem os papeis heroicos eles mesmos. 
+ 
+					
+					<h3>CRIANDO UM BARDO</h3>
+					Bardos são contadores de histórias, não importando se essas histórias são reais ou não. 
+					O antecedente e motivações do seu personagem não são mais importantes que as histórias que eles contam sobre si mesmo.
+					No entanto, você, seguramente, teve uma infância mundana. Não existe uma história interessante sobre isso, 
+					então você deveria inventar que foi um órfão que foi criado por uma bruxa em um pântano sombrio.
+					Ou sua infância pode render uma boa história. Alguns bardos adquirem sua música mágica através de meios extraordinários, 
+					incluindo a inspiração de fadas ou outras criaturas sobrenaturais.
+					Você serviu como aprendiz, estudando com um mestre, seguindo o mais experiente 
+					bardo até que você fosse capaz de seguir o seu próprio caminho? Ou você ingressou em uma faculdade onde 
+					você estudou o conhecimento de bardo e praticou sua magia musical? Talvez você tenha sido um jovem fugitivo ou órfão, 
+					que adquiriu a amizade de um bardo andarilho que se tornou seu mentor. Ou você pode ter sido o filho mimado de um nobre tutelado por um mestre. 
+					Talvez você tenha caído nas garras de uma bruxa, feito uma barganha por um dom musical, além de sua vida e liberdade, mas por que preço? 
+ 
+ 
+					
+					<video width="420" height="340" controls> <source src="Bardos!.mp4" type="video/mp4"></video></br >
+ 
+					Fonte: <a href="https://www.youtube.com/channel/UCTE8d9Wa8vesRNpQI4CbvWg/featured"	style="color:white">Vertente Geek</a>
+					</meutext>
+			</article>
+		</div>
+	</body>
+<html>

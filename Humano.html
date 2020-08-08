@@ -1,0 +1,338 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<head>
+		<title>D&D </title>
+		<style>
+			form 	
+			{
+			border: 3px solid #f1f1f1;
+			}
+			li 
+			{
+				float: left;
+			}
+
+			li a, .dropbtn 
+			{
+				display: inline-block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+
+			li a:hover, .dropdown:hover .dropbtn 
+			{
+				background-color: red;
+			}
+
+			li.dropdown 
+			{
+				display: inline-block;
+			}
+
+			.dropdown-content 
+			{
+				display: none;
+				position: absolute;
+				background-color: #f9f9f9;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				z-index: 1;
+			}
+
+			.dropdown-content a 
+			{
+				color: black;
+				padding: 12px 16px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+
+			.dropdown-content a:hover {background-color: #f1f1f1}
+
+			.dropdown:hover .dropdown-content 
+			{
+				display: block;
+			}
+			input[type=text], input[type=password] 
+			{
+				width: 90%;
+				padding: 12px 20px;
+				margin: 8px 0;
+				display: inline-block;
+				border: 1px solid #ccc;
+				box-sizing: border-box;
+			}
+
+			button 
+			{
+				background-color: #4CAF50;
+				color: white;
+				padding: 5px 10px;
+				margin: 2px 0;
+				border: none;
+				cursor: pointer;
+				width: 91%;
+			}
+
+			button:hover 
+			{
+				opacity: 0.8;
+			}
+
+			.cancelbtn 
+			{
+				width: auto;
+				padding: 10px 10px;
+				background-color: #f44336;
+			}
+
+			.imgcontainer 
+			{
+				text-align: center;
+				margin: 20px 0 10px 0;
+			}
+
+			img.avatar 
+			{
+				width: 50%;
+				border-radius: 50%;
+			}
+
+			.container 
+			{
+				padding: 16px;
+			}
+
+			span.psw 
+			{
+				float: right;
+				padding-top: 16px;
+			}
+
+			
+			@media screen and (max-width: 300px) 
+			{
+				span.psw {
+				   display: block;
+				   float: none;
+				}
+				.cancelbtn {
+				   width: 100%;
+				}
+			}
+			
+			div.container 
+			{
+				width: 90%;
+				border: 0px solid gray;
+			}
+			
+			ul 
+			{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+			}
+
+			li
+			{
+				float: left;
+			}
+
+			
+			header
+			{
+				padding: 5em;
+				color: white;
+				background-image: url("Backgif2.gif");
+				clear: left;
+				text-align: center;
+			}
+
+			nav 
+			{
+				float: left;
+				max-width: 260px;
+				margin: 10px;
+				padding: 1em;
+			}
+
+			nav ul 
+			{
+				list-style-type: none;
+				padding: 0;
+			}
+			   
+			nav ul a 
+			{
+				text-decoration: none;
+				
+			}
+
+			article 
+			{
+			
+				margin-left: 170px;
+				border-left: 1px solid gray;
+				padding: 1em;
+				overflow: hidden;
+			}
+			
+			meutext
+			{
+				text-shadow: 2px 1px black;
+				color:white;
+			}
+			meutitulo
+			{
+				text-shadow: 2px 1px black;
+				color:Coral;
+			}
+			
+			body 
+			{
+				background-image: url("Background.jpg");
+			
+			}
+			audio
+			{
+				opacity: 0.5;
+				width:1250px
+			}
+			#images
+			{
+				width: 250px;
+				height: 300px;
+			}		
+			
+			
+		</style>
+		<audio autoplay>
+			<source src="Song.mp3" type="audio/mpeg">
+.
+		</audio>
+		</head>
+		<body>
+		
+			<div class="container">
+			
+				<ul>
+					<li><a class="active" href=index.html>Inicio</a></li>
+					<li><a href=Memes.html>Memes</a></li>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Raças</a>
+						<div class="dropdown-content">
+						<a href=Anao.html>Anão</a>
+						<a href=Elfo.html>Elfo</a>
+						<a href=Halfling.html>Halfling</a>	
+						<a href=Humano.html>Humano</a>
+						<a href=Draconato.html>Draconato</a>
+						<a href=Gnomo.html>Gnomo</a>
+						<a href=Meio-Elfo.html>Meio-Elfo</a>
+						<a href=Meio-Orc.html>Meio-Orc</a>
+						<a href=Tiefling.html>Tiefling</a>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Classes</a>
+						<div class="dropdown-content">
+						<a href=Barbaro.html>Bárbaro</a>
+						<a href=Bardo.html>Bardo</a>
+						<a href=Bruxo.html>Bruxo</a>
+						<a href=Clérigo.html>Clérigo</a>
+						<a href=Druida.html>Druida</a>
+						<a href=Feiticeiro.html>Feiticeiro</a>
+						<a href=Guerreiro.html>Guerreiro</a>
+						<a href=Ladino.html>Ladino</a>
+						<a href=Mago.html>Mago</a>
+						<a href=Monge.html>Monge</a>
+						<a href=Paladino.html>Paladino</a>
+						<a href=Patrulheiro.html>Patrulheiro</a>
+					<li><a href=Mapa.html>Maps do site</a></li>
+				</ul>	
+				
+				<header>
+					
+				   <center><h1 style="color:Coral";>Humano</h1></center><br/ > 
+				</header>
+				
+				<nav>
+					<ul>
+						<form action="/action_page.php">
+						  <div class="imgcontainer">
+							<img src="0006.gif" alt="Avatar" class="avatar">
+						  </div>
+
+						  <div class="container">
+							<label><b>Usuário</b></label>
+							<input type="text" placeholder="Enter Username" name="uname" required>
+
+							<label><b>Senha</b></label>
+							<input type="password" placeholder="Enter Password" name="psw" required>
+								
+							<button type="submit">Login</button>
+							<input type="checkbox" checked="checked"> Lembrar
+						  </div>
+
+						  <div class="container" style="background-color:#f1f1f1">
+							<span class="psw">Esqueci a <a href="#">senha?</a></span>
+							<a href="registro.html"><button type="button" class="cancelbtn">Registrar</button>							
+						  </div>
+							<p>  </p><a href="#"><button type="button" onclick="document.getElementById('demo').innerHTML = Date()"> Data e Hora.</button></a></li>
+							<p style="color:White" id="demo"></p>
+						</form>
+					</ul>						
+				</nav>
+
+			<article>				
+					<meutext>
+					<img id="images" src="Humano.jpg"></br >
+					<i>ESTAS SÃO AS HISTÓRIAS DE UM POVO INCANSÁVEL QUE,
+					há muito tempo, saiu aos mares e rios em longos navios,
+					primeiro para saquear e aterrorizar, em seguida para colonizar.
+					No entanto, havia uma energia, um amor pela aventura, que foi cantado em cada página.
+					Noite adentro Liriel leu, iluminada pela luz de velas após velas. Ela nunca tinha dado muita atenção para os humanos, 
+					mas essas histórias à fascinavam. Naquelas páginas amareladas estavam os contos de heróis corajosos, animais estranhos e ferozes, 
+					primitivos deuses poderosos e uma magia que era parte e dava forma àquela terra distante.</br > – Elaine Cunningham, Filha dos Drow 
+					</i>
+					</br >
+					</br >
+					Nos confins da maioria dos mundos, os humanos são a mais jovem das raças comuns, chegando mais tarde no cenário mundial e com uma vida curta,
+					se comparados aos anões, elfos e dragões. Talvez seja por causa de suas vidas mais curtas que eles se esforcem para alcançar o máximo que 
+					podem nos anos que têm. Ou talvez eles sintam que têm algo a provar às raças mais antigas, e é por esta razão que eles constroem seus poderosos 
+					impérios através da conquista e do comércio. O que quer que os motive, os humanos são os inovadores, os realizadores e os pioneiros dos mundos.  
+					<h3>UM AMPLO ESPECTRO</h3>
+					Com sua propensão para a migração e conquista, os humanos são fisicamente mais diversificados que as outras raças comuns.
+					Não há um humano típico. Um indivíduo pode ter entre 1,65 metro a 1,90 metro de altura e pesar entre 62,5 kg e 125 kg. Os tons de pele
+					podem variar do negro ao muito pálido, e os cabelos podem ir do negro ao loiro (encaracolado, crespo ou liso).
+					Homens podem possuir pelos faciais esparsos ou abundantes. A diversidade dos humanos pode ter uma pitada de sangue não humano,
+					revelando indícios de elfos, orcs ou outras linhagens. Os humanos chegam à idade adulta no fim da adolescência e raramente vivem um século.
+					<h3>VARIADOS EM TUDO</h3>
+					Os humanos são os mais adaptáveis, flexíveis e ambiciosos entre todas as raças comuns. Eles têm amplos e distintos gostos,
+					moralidades e hábitos nas muitas diferentes regiões onde eles se instalaram. Quando se estabelecem em um lugar, eles permanecem:
+					eles constroem cidades que duram por eras, e grandes reinos que podem persistir por longos séculos. 
+					Um único humano pode ter uma vida relativamente curta, mas uma nação ou cultura humana preserva tradições com origens muito 
+					além do alcance da memória de qualquer um dos humanos. Eles vivem plenamente o presente – tornandoos bem adaptados a uma vida de aventuras 
+					– mas também planejam o futuro, esforçando-se para deixar um legado duradouro. Individualmente e como grupo, os humanos são oportunistas 
+					adaptáveis, e permanecem alerta às dinâmicas mudanças políticas e sociais. 
+					<h3>INSTITUIÇÕES DURADOURAS</h3>
+					Onde um único elfo ou anão pode assumir a responsabilidade de proteger um local especial ou um poderoso segredo,
+					os humanos fundam ordens sagradas e instituições para tais fins. Enquanto clãs anões e anciões halflings passam as antigas tradições
+					para cada nova geração, os templos, governos, bibliotecas, e códigos de lei dos humanos fixam suas tradições no alicerce da história. 
+					Os humanos sonham com a imortalidade, mas (exceto aqueles poucos que procuram a não-vida ou a ascensão divina para escapar das garras da morte) 
+					somente alcançam-na certificando-se que serão lembrados depois que partirem. Embora alguns humanos possam ser xenófobos, em geral suas sociedades 
+					são inclusivas. As terras humanas dão as boas-vindas a um grande número de raças não humanas em comparação com a proporção de humanos que 
+					vivem em terras não humanas.
+					<h3>EXEMPLO DE AMBIÇÃO</h3>
+					Os humanos que buscam aventura são os mais ousados e ambiciosos membros de uma ousada e ambiciosa raça.
+					Eles buscam ganhar glória aos olhos de seus companheiros ao acumular poder, riqueza e fama. Mais do que as outras raças,
+					os humanos defendem causas, em vez de territórios ou grupos.
+					</meutext>
+			</article>
+		</div>
+	</body>
+<html>

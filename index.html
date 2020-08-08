@@ -1,0 +1,352 @@
+<html>
+
+	<head>
+		<title>D&D </title>
+		<style>
+			form 	
+			{
+			border: 3px solid #f1f1f1;
+			}
+			li 
+			{
+				float: left;
+			}
+
+			li a, .dropbtn 
+			{
+				display: inline-block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+
+			li a:hover, .dropdown:hover .dropbtn 
+			{
+				background-color: red;
+			}
+
+			li.dropdown 
+			{
+				display: inline-block;
+			}
+
+			.dropdown-content 
+			{
+				display: none;
+				position: absolute;
+				background-color: #f9f9f9;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				z-index: 1;
+			}
+
+			.dropdown-content a 
+			{
+				color: black;
+				padding: 12px 16px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+
+			.dropdown-content a:hover {background-color: #f1f1f1}
+
+			.dropdown:hover .dropdown-content 
+			{
+				display: block;
+			}
+			input[type=text], input[type=password] 
+			{
+				width: 90%;
+				padding: 12px 20px;
+				margin: 8px 0;
+				display: inline-block;
+				border: 1px solid #ccc;
+				box-sizing: border-box;
+			}
+
+			button 
+			{
+				background-color: #4CAF50;
+				color: white;
+				padding: 5px 10px;
+				margin: 2px 0;
+				border: none;
+				cursor: pointer;
+				width: 91%;
+			}
+
+			button:hover 
+			{
+				opacity: 0.8;
+			}
+
+			.cancelbtn 
+			{
+				width: auto;
+				padding: 10px 10px;
+				background-color: #f44336;
+			}
+
+			.imgcontainer 
+			{
+				text-align: center;
+				margin: 20px 0 10px 0;
+			}
+
+			img.avatar 
+			{
+				width: 50%;
+				border-radius: 50%;
+			}
+
+			.container 
+			{
+				padding: 16px;
+			}
+
+			span.psw 
+			{
+				float: right;
+				padding-top: 16px;
+			}
+
+			
+			@media screen and (max-width: 300px) 
+			{
+				span.psw {
+				   display: block;
+				   float: none;
+				}
+				.cancelbtn {
+				   width: 100%;
+				}
+			}
+			
+			div.container 
+			{
+				width: 90%;
+				border: 0px solid gray;
+			}
+			
+			ul 
+			{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+			}
+
+			li
+			{
+				float: left;
+			}
+
+			
+			header
+			{
+				padding: 5em;
+				color: white;
+				background-image: url("Backgif2.gif");
+				clear: left;
+				text-align: center;
+			}
+
+			nav 
+			{
+				float: left;
+				max-width: 260px;
+				margin: 10px;
+				padding: 1em;
+			}
+
+			nav ul 
+			{
+				list-style-type: none;
+				padding: 0;
+			}
+			   
+			nav ul a 
+			{
+				text-decoration: none;
+				
+			}
+
+			article 
+			{
+			
+				margin-left: 170px;
+				border-left: 1px solid gray;
+				padding: 1em;
+				overflow: hidden;
+			}
+			
+			meutext
+			{
+				text-shadow: 2px 1px black;
+				color:white;
+			}
+			meutitulo
+			{
+				text-shadow: 2px 1px black;
+				color:Coral;
+			}
+			
+			body 
+			{
+				background-image: url("Background.jpg");
+			
+			}
+			audio
+			{
+				opacity: 0.5;
+				width:1250px
+			}
+			#images
+			{
+				width: 250px;
+				height: 300px;
+			}		
+			
+			
+		</style>
+		<audio  autoplay>
+			<source src="Song.mp3" type="audio/mpeg">
+.
+		</audio>
+		</head>
+		<body>
+		
+			<div class="container">
+			
+				<ul>
+					<li><a class="active" href=index.html>Inicio</a></li>
+					<li><a href=Memes.html>Memes</a></li>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Raças</a>
+						<div class="dropdown-content">
+						<a href=Anao.html>Anão</a>
+						<a href=Elfo.html>Elfo</a>
+						<a href=Halfling.html>Halfling</a>	
+						<a href=Humano.html>Humano</a>
+						<a href=Draconato.html>Draconato</a>
+						<a href=Gnomo.html>Gnomo</a>
+						<a href=Meio-Elfo.html>Meio-Elfo</a>
+						<a href=Meio-Orc.html>Meio-Orc</a>
+						<a href=Tiefling.html>Tiefling</a>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Classes</a>
+						<div class="dropdown-content">
+						<a href=Barbaro.html>Bárbaro</a>
+						<a href=Bardo.html>Bardo</a>
+						<a href=Bruxo.html>Bruxo</a>
+						<a href=Clérigo.html>Clérigo</a>
+						<a href=Druida.html>Druida</a>
+						<a href=Feiticeiro.html>Feiticeiro</a>
+						<a href=Guerreiro.html>Guerreiro</a>
+						<a href=Ladino.html>Ladino</a>
+						<a href=Mago.html>Mago</a>
+						<a href=Monge.html>Monge</a>
+						<a href=Paladino.html>Paladino</a>
+						<a href=Patrulheiro.html>Patrulheiro</a>
+					<li><a href=Mapa.html>Mapa do site</a></li>
+				</ul>	
+				
+				<header>
+					
+				   <center><h1 style="color:Coral";>Seja Bem-vindo a </br >Taverna Desafio dos Deuses </h1></center><br/ > 
+				</header>
+				
+				<nav>
+					<ul>
+						<form action="/action_page.php">
+						  <div class="imgcontainer">
+							<img src="0006.gif" alt="Avatar" class="avatar">
+						  </div>
+
+						  <div class="container">
+							<label><b>Usuário</b></label>
+							<input type="text" placeholder="Enter Username" name="uname" required>
+
+							<label><b>Senha</b></label>
+							<input type="password" placeholder="Enter Password" name="psw" required>
+								
+							<button type="submit">Login</button>
+							<input type="checkbox" checked="checked"> Lembrar
+						  </div>
+
+						  <div class="container" style="background-color:#f1f1f1">
+							<span class="psw">Esqueci a <a href="#">senha?</a></span>
+							<a href="registro.html"><button type="button" class="cancelbtn">Registrar</button>							
+						  </div>
+							<a href="#"> <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Data e Hora.</button>  </a> </li> 
+							<p style="color:White" id="demo"></p>
+						</form>
+					</ul>						
+				</nav>
+
+				<article>				
+					<meutext><h5>
+					Saudações pessoal! Você que sempre viu falar por aí sobre um tal de “D&D”, sobre “RPG”, um jogo com várias pessoal em volta de uma mesa cheia de livros e dados, mas nunca teve a oportunidade de aprender ou ao menos entender como funciona?
+					Ou você mestre, que quer apresentar o jogo aos seus amigos que ainda pensam que RPG é Reeducação Postural Global, talvez seja melhor você mostrar esse post a eles antes.
+					</br >
+					<ins><b><h3>Guia de Introdução ao D&D/RPG</h3></b></ins>
+					<h4> Afinal, o que é D&D? </h4>
+					D&D é a sigla de Dungeons & Dragons (Masmorras & Dragões), o primeiro, mais famoso e mais jogado RPG do mundo.</br >
+					Criado por Gary Gygax e Dave Arneson em 1974 nos EUA.</br >
+					<h4> Mas o que é RPG? </h4>
+					RPG é a sigla de Role Playing Game (Jogo de Interpretação de Papéis).</br >
+					<h4> Como se joga isso? <h4>
+					O RPG é uma mistura de teatro com jogo de tabuleiro onde várias pessoas se reúnem para contar histórias em um meio compartilhado e cooperativo.
+					Uma delas será o mestre (ou narrador) que contará uma história e os outros serão os jogadores que interpretarão os personagens que vivenciarão essa história. O mestre também fica encarregado de controlar todos os personagens secundários e inimigos, enquanto os jogadores ficam só com os protagonistas.
+					A imaginação é o limite, mas as regras estão lá para definir se uma ação teve sucesso ou não. Clique aqui para saber mais.
+					<h4> O que eu preciso para jogar RPG? </h4>
+					O RPG utiliza livros de regras e o D&D possui 3 básicos: O Livro do Jogador, O Guia do Mestre e o Manual dos Monstros. Existem diferentes edições que foram lançadas e atualizadas ao longo dos anos. Clique aqui para saber mais.
+					São precisos também dados de multifaces: d4, d6, d8, d10, d12 e d20; apelidados assim devido ao número de lados presentes em cada dado.
+					O mestre deverá ler todos os livros previamente e ter um bom conhecimento sobre as regras para poder conduzir o jogo, criar sua própria história (ou utilizar uma pronta) e auxiliar os jogadores a criarem as fichas de seus personagens. Também é possível utilizar um tabuleiro e miniaturas para uma melhor representação dos personagens.
+					Por fim, é só reunir seus amigos em vota de uma mesa e jogarem. E se você não tem amigos, não tem problema, é possível encontrar mesas online com a ferramenta Roll20. Clique aqui para saber mais.
+					<h4> Sobre o que são as histórias no D&D? </h4>
+					D&D é um RPG com temática de fantasia medieval tendo cavaleiros, magos, princesas e dragões.
+					É como criar um personagem e vivenciar uma história de um filme, como O Senhor dos Anéis, por exemplo. O que seu personagem poderá ou não fazer, suas características físicas e seus equipamentos estarão descritos na ficha de personagem. E os dados decidirão o resultado de suas ações.
+					“Eu acertei ou não aquela flecha no dragão?”
+					<h4> As Raças e Classes do D&D </h4>
+					No D&D seu personagem pode ser um humano, um elfo, um anão, um halfling ou um meio-orc…
+					Ele pode ser um guerreiro treinado ou um bárbaro das montanhas ou quem sabe até um mago da escola de magia arcana. São dezenas de combinações!
+					<h4> Os Atributos Básicos do D&D </h4>
+					Na ficha do seu personagem você encontrará seis atributos básicos que definem as características principais do seu personagem, são eles: FORça, DEStreza, CONstituição, INTeligência, SABedoria e CARisma.
+					Com eles, estão relacionadas as perícias, testes de resistência, modificadores de ataques, conjuração de magias e outros bônus.
+					Fora isso, temos os PVs e a CA – que são os pontos de vida e a classe de armadura do personagem. Além da XP que determina os pontos de experiência e o nível do personagem.
+					<h4> Realizando uma Jogada </h4>
+					João está jogando com um personagem elfo que tentará atacar um orc com a sua espada, para isso ele precisa estar adjacente ao inimigo, então ele rola:
+					[ 1d20 + modificador de FORça + bônus de proficiência (ou outros, caso se apliquem) ]
+					</br >
+					Se o resultado da jogada for igual ou superior que o valor da CA do orc, o elfo acerta o golpe e rola o dano conforme a arma que esteja utilizando:
+					[ 1d6 + modificador de FORça ], por exemplo, caso seja uma espada curta.
+					</br >
+					Caso o elfo for tentar escalar uma montanha, João deverá fazer um teste de perícia: Atletismo e superar a classe de dificuldade imposta pelo mestre, conforme a situação.
+					</br >
+					Já se ele for tentar se esconder das tropas inimigas, ele deve sair da linha de visão deles e então fazer um teste de Furtividade, e por aí vai…
+					</br >
+					<h4>Exemplo de Jogo </h4>
+					MESTRE: “Vocês adentram a fria e escura caverna sob as montanhas, mesma sem uma boa visibilidade, é possível observar as estalagmites que o tempo criou. Mais a frente, vocês vêem um declive que aparenta ser uma passagem para um nível inferior. O que vocês fazem?”
+					</br >
+					JOGADOR A [Ladino]: “Eu ascendo uma tocha para analisar melhor o local.”
+					</br >
+					JOGADOR B [Paladino]: “Eu pego minha corda, amarro-a numa estalagmite próxima para que fique segura e vou descendo com cuidado…”
+					</br >
+					JOGADOR C [Mago]: “Eu vou seguindo logo atrás dele!”
+					</br >
+					MESTRE: “Ok! Enquanto vocês estão descendo e sendo engolidos pela escuridão, de repente, um tremor se inicia e vocês ouvem gritos raivosos ecoarem por toda a caverna!”
+					</br >
+					JOGADOR B [Paladino]: “Eu desço rapidamente e ao alcançar solo firme, pego a minha espada!”
+					</br >
+					JOGADOR A [Ladino]: “Saco minha besta e tomo posição para dar suporte aos dois lá embaixo.”
+					</br >
+					MESTRE: “São ogros! Estão armados com grandes pedaços de ossos e furiosos por terem visitas logo cedo. Rolem a iniciativa!”</h5></p></meutext>
+					</br >
+			</article>
+		</div>
+	</body>
+<html>

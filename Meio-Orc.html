@@ -1,0 +1,334 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<head>
+		<title>D&D </title>
+		<style>
+			form 	
+			{
+			border: 3px solid #f1f1f1;
+			}
+			li 
+			{
+				float: left;
+			}
+
+			li a, .dropbtn 
+			{
+				display: inline-block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+
+			li a:hover, .dropdown:hover .dropbtn 
+			{
+				background-color: red;
+			}
+
+			li.dropdown 
+			{
+				display: inline-block;
+			}
+
+			.dropdown-content 
+			{
+				display: none;
+				position: absolute;
+				background-color: #f9f9f9;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				z-index: 1;
+			}
+
+			.dropdown-content a 
+			{
+				color: black;
+				padding: 12px 16px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+
+			.dropdown-content a:hover {background-color: #f1f1f1}
+
+			.dropdown:hover .dropdown-content 
+			{
+				display: block;
+			}
+			input[type=text], input[type=password] 
+			{
+				width: 90%;
+				padding: 12px 20px;
+				margin: 8px 0;
+				display: inline-block;
+				border: 1px solid #ccc;
+				box-sizing: border-box;
+			}
+
+			button 
+			{
+				background-color: #4CAF50;
+				color: white;
+				padding: 5px 10px;
+				margin: 2px 0;
+				border: none;
+				cursor: pointer;
+				width: 91%;
+			}
+
+			button:hover 
+			{
+				opacity: 0.8;
+			}
+
+			.cancelbtn 
+			{
+				width: auto;
+				padding: 10px 10px;
+				background-color: #f44336;
+			}
+
+			.imgcontainer 
+			{
+				text-align: center;
+				margin: 20px 0 10px 0;
+			}
+
+			img.avatar 
+			{
+				width: 50%;
+				border-radius: 50%;
+			}
+
+			.container 
+			{
+				padding: 16px;
+			}
+
+			span.psw 
+			{
+				float: right;
+				padding-top: 16px;
+			}
+
+			
+			@media screen and (max-width: 300px) 
+			{
+				span.psw {
+				   display: block;
+				   float: none;
+				}
+				.cancelbtn {
+				   width: 100%;
+				}
+			}
+			
+			div.container 
+			{
+				width: 90%;
+				border: 0px solid gray;
+			}
+			
+			ul 
+			{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+			}
+
+			li
+			{
+				float: left;
+			}
+
+			
+			header
+			{
+				padding: 5em;
+				color: white;
+				background-image: url("Backgif2.gif");
+				clear: left;
+				text-align: center;
+			}
+
+			nav 
+			{
+				float: left;
+				max-width: 260px;
+				margin: 10px;
+				padding: 1em;
+			}
+
+			nav ul 
+			{
+				list-style-type: none;
+				padding: 0;
+			}
+			   
+			nav ul a 
+			{
+				text-decoration: none;
+				
+			}
+
+			article 
+			{
+			
+				margin-left: 170px;
+				border-left: 1px solid gray;
+				padding: 1em;
+				overflow: hidden;
+			}
+			
+			meutext
+			{
+				text-shadow: 2px 1px black;
+				color:white;
+			}
+			meutitulo
+			{
+				text-shadow: 2px 1px black;
+				color:Coral;
+			}
+			
+			body 
+			{
+				background-image: url("Background.jpg");
+			
+			}
+			audio
+			{
+				opacity: 0.5;
+				width:1250px
+			}
+			#images
+			{
+				width: 250px;
+				height: 300px;
+			}		
+			
+			
+		</style>
+		<audio autoplay>
+			<source src="Song.mp3" type="audio/mpeg">
+.
+		</audio>
+		</head>
+		<body>
+		
+			<div class="container">
+			
+				<ul>
+					<li><a class="active" href=index.html>Inicio</a></li>
+					<li><a href=Memes.html>Memes</a></li>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Raças</a>
+						<div class="dropdown-content">
+						<a href=Anao.html>Anão</a>
+						<a href=Elfo.html>Elfo</a>
+						<a href=Halfling.html>Halfling</a>	
+						<a href=Humano.html>Humano</a>
+						<a href=Draconato.html>Draconato</a>
+						<a href=Gnomo.html>Gnomo</a>
+						<a href=Meio-Elfo.html>Meio-Elfo</a>
+						<a href=Meio-Orc.html>Meio-Orc</a>
+						<a href=Tiefling.html>Tiefling</a>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Classes</a>
+						<div class="dropdown-content">
+						<a href=Barbaro.html>Bárbaro</a>
+						<a href=Bardo.html>Bardo</a>
+						<a href=Bruxo.html>Bruxo</a>
+						<a href=Clérigo.html>Clérigo</a>
+						<a href=Druida.html>Druida</a>
+						<a href=Feiticeiro.html>Feiticeiro</a>
+						<a href=Guerreiro.html>Guerreiro</a>
+						<a href=Ladino.html>Ladino</a>
+						<a href=Mago.html>Mago</a>
+						<a href=Monge.html>Monge</a>
+						<a href=Paladino.html>Paladino</a>
+						<a href=Patrulheiro.html>Patrulheiro</a>
+					<li><a href=Mapa.html>Maps do site</a></li>
+				</ul>	
+				
+				<header>
+					
+				   <center><h1 style="color:Coral";>Meio-Orc</h1></center><br/ > 
+				</header>
+				
+				<nav>
+					<ul>
+						<form action="/action_page.php">
+						  <div class="imgcontainer">
+							<img src="0006.gif" alt="Avatar" class="avatar">
+						  </div>
+
+						  <div class="container">
+							<label><b>Usuário</b></label>
+							<input type="text" placeholder="Enter Username" name="uname" required>
+
+							<label><b>Senha</b></label>
+							<input type="password" placeholder="Enter Password" name="psw" required>
+								
+							<button type="submit">Login</button>
+							<input type="checkbox" checked="checked"> Lembrar
+						  </div>
+
+						  <div class="container" style="background-color:#f1f1f1">
+							<span class="psw">Esqueci a <a href="#">senha?</a></span>
+							<a href="registro.html"><button type="button" class="cancelbtn">Registrar</button>							
+						  </div>
+							<p>  </p><a href="#"><button type="button" onclick="document.getElementById('demo').innerHTML = Date()"> Data e Hora.</button></a></li>
+							<p style="color:White" id="demo"></p>
+						</form>
+					</ul>						
+				</nav>
+
+			<article>				
+					<meutext>
+					<img id="images" src="Meio-Orc.jpg"></br >
+					<i> O COMANDANTE MHURREN DESPERTOU A SI E A SUA MULHER das sua cama de peles, colocou a curta cota de malha de aço em seu torso grosso e musculoso. 
+					Normalmente ele acorda antes da maioria dos guerreiros, já que ele possui uma forte veia de sangue humano e acha a luz do dia menos irritante 
+					que a maioria do resto da tribo. Entre os Caveiras Sangrentas, um guerreiro é julgado por sua força, ferocidade e tenacidade. 
+					A ancestralidade humana não é motivo para vergonha – desde que ele seja tão forte, resistente e sedento por sangue quanto os de sangue puro.
+					Meio-orcs que sejam mais fracos que seus camaradas orcs não duram muito tempo entre os Caveiras Sangrentas ou em qualquer outra tribo orc que seja.
+					Mas, é considerado verdade que uma pitada de sangue humano concede a um guerreiro a mistura exata de esperteza, ambição e autodisciplina para ir além,
+					como Mhurren fez. Ele era senhor de uma tribo que reuniu duas mil lanças e era o mais forte comandante em Thar.
+					</br >–Richard Baker, Lâmina Arcana </i>
+					</br >
+					</br >
+					Quer estejam unidos sob a liderança de um poderoso bruxo ou estejam lutando por um impasse após anos de conflito, tribos orcs e humanas as vezes
+					formam alianças, unindo forças em uma vasta horda para o pavor das terras civilizadas próximas. Quando essas alianças são seladas através do casamento,
+					os meio-orcs nascem. Alguns meio-orcs crescem e se tornam orgulhosos comandantes de tribos orcs, seu sangue humano concedem a eles um diferencial
+					perante seus rivais orcs de sangue puro. Alguns arriscam sair pelo mundo para provar seu valor entre os humanos e outras raças mais civilizadas.
+					Muitos desses se tornam aventureiros, adquirindo renome pelos seus poderosos feitos e notoriedade por seus costumes bárbaros e fúria selvagem. 
+					<h3>CICATRIZES E FORÇA</h3>
+					A pigmentação acinzentada dos meio-orcs, suas testas avantajadas, mandíbulas salientes, dentes proeminentes e corpos grandes torna sua herança orc 
+					notável para todos os observadores. Meio-orcs tem entre 1,80 metro e 2,10 metros e, normalmente pesam entre 90 kg e 125 kg. Orcs ostentam cicatrizes
+					de batalha como peças de orgulho e consideram cicatrizes ornamentais como coisas bonitas. Outras cicatrizes, no entanto, marcam um orc ou meio-orc
+					como um ex-escravo ou um exilado desonrado. Qualquer meio-orc que tenha vivido entre ou próximo dos orcs terá cicatrizes, independentemente de serem
+					marcas de humilhação ou de orgulho, recontando suas façanhas e ferimentos do passado. Até mesmo um meio-orc que viva entre os humanos deverá mostrar
+					essas cicatrizes orgulhosamente ou escondê-las com vergonha. 
+					<h3>A MARCA DE GRUUMSH</h3>
+					Gruumsh, o deus caolho, criou os orcs e, até mesmo os orcs que desistem de adorá-lo não consegue escapar totalmente de sua influência.
+					O mesmo acontece com os meio-orcs, apesar do seu sangue humano tem moderar o impacto da sua herança orc. Alguns meio-orcs ouvem os sussurros
+					de Gruumsh em seus sonhos, influenciando-os a liberar a fúria que fervilha dentro deles. Outros poucos exultam o nome de Gruumsh
+					quando participam de um combate corpo-a-corpo – quer exultem com ele ou temam de medo e ódio. Meio-orcs não são maus por natureza,
+					mas o mal espreita dentro deles, quer eles o abracem ou se rebelem contra ele.   Além da fúria de Gruumsh, meio-orcs sentem poderosas emoções. 
+					A fúria não apenas acelera seu pulso, mas faz seus corpos arder. Um insulto é como uma picada ácida e a tristeza drena sua força. No entanto,
+					eles riem alto e forte e, simples prazeres mundanos – banquetear, beber, lutar, tocar tambores e dançar selvagemente – enche os seus corações de alegria.
+					Eles tendem a ter temperamento explosivo e, as vezes, são rabugentos e mais inclinados a ação que contemplação e a lutar que argumentar.
+					Os meio-orcs mais adaptados são aqueles com autocontrole suficiente para viver em terras civilizadas.   
+					<h3>TRIBOS E PARDIEIROS</h3>
+					Os meio-orcs geralmente vivem entre os orcs. Entre as outras raças, os humanos são os mais receptivos e a maioria dos meio-orcs sempre vivem entre 
+					em terras humanas quando não vivem em tribos orc. Quer seja provando seu poder em tribos bárbaras, quer seja tentando sobreviver em favelas em grandes 
+					cidades, os meio-orcs se firmam através de sua força física, sua resistência e da pura determinação que herdaram de seus ancestrais humanos. 
+					</meutext>
+			</article>
+		</div>
+	</body>
+<html>

@@ -1,0 +1,363 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<head>
+		<title>D&D </title>
+		<style>
+			form 	
+			{
+			border: 3px solid #f1f1f1;
+			}
+			li 
+			{
+				float: left;
+			}
+
+			li a, .dropbtn 
+			{
+				display: inline-block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+
+			li a:hover, .dropdown:hover .dropbtn 
+			{
+				background-color: red;
+			}
+
+			li.dropdown 
+			{
+				display: inline-block;
+			}
+
+			.dropdown-content 
+			{
+				display: none;
+				position: absolute;
+				background-color: #f9f9f9;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				z-index: 1;
+			}
+
+			.dropdown-content a 
+			{
+				color: black;
+				padding: 12px 16px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+
+			.dropdown-content a:hover {background-color: #f1f1f1}
+
+			.dropdown:hover .dropdown-content 
+			{
+				display: block;
+			}
+			input[type=text], input[type=password] 
+			{
+				width: 90%;
+				padding: 12px 20px;
+				margin: 8px 0;
+				display: inline-block;
+				border: 1px solid #ccc;
+				box-sizing: border-box;
+			}
+
+			button 
+			{
+				background-color: #4CAF50;
+				color: white;
+				padding: 5px 10px;
+				margin: 2px 0;
+				border: none;
+				cursor: pointer;
+				width: 91%;
+			}
+
+			button:hover 
+			{
+				opacity: 0.8;
+			}
+
+			.cancelbtn 
+			{
+				width: auto;
+				padding: 10px 10px;
+				background-color: #f44336;
+			}
+
+			.imgcontainer 
+			{
+				text-align: center;
+				margin: 20px 0 10px 0;
+			}
+
+			img.avatar 
+			{
+				width: 50%;
+				border-radius: 50%;
+			}
+
+			.container 
+			{
+				padding: 16px;
+			}
+
+			span.psw 
+			{
+				float: right;
+				padding-top: 16px;
+			}
+
+			
+			@media screen and (max-width: 300px) 
+			{
+				span.psw {
+				   display: block;
+				   float: none;
+				}
+				.cancelbtn {
+				   width: 100%;
+				}
+			}
+			
+			div.container 
+			{
+				width: 90%;
+				border: 0px solid gray;
+			}
+			
+			ul 
+			{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+			}
+
+			li
+			{
+				float: left;
+			}
+
+			
+			header
+			{
+				padding: 5em;
+				color: white;
+				background-image: url("Backgif2.gif");
+				clear: left;
+				text-align: center;
+			}
+
+			nav 
+			{
+				float: left;
+				max-width: 260px;
+				margin: 10px;
+				padding: 1em;
+			}
+
+			nav ul 
+			{
+				list-style-type: none;
+				padding: 0;
+			}
+			   
+			nav ul a 
+			{
+				text-decoration: none;
+				
+			}
+
+			article 
+			{
+			
+				margin-left: 170px;
+				border-left: 1px solid gray;
+				padding: 1em;
+				overflow: hidden;
+			}
+			
+			meutext
+			{
+				text-shadow: 2px 1px black;
+				color:white;
+			}
+			meutitulo
+			{
+				text-shadow: 2px 1px black;
+				color:Coral;
+			}
+			
+			body 
+			{
+				background-image: url("Background.jpg");
+			
+			}
+			audio
+			{
+				opacity: 0.5;
+				width:1250px
+			}
+			#images
+			{
+				width: 250px;
+				height: 300px;
+			}		
+			
+			
+		</style>
+		<audio autoplay>
+			<source src="Song.mp3" type="audio/mpeg">
+.
+		</audio>
+		</head>
+		<body>
+		
+			<div class="container">
+			
+				<ul>
+					<li><a class="active" href=index.html>Inicio</a></li>
+					<li><a href=Memes.html>Memes</a></li>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Raças</a>
+						<div class="dropdown-content">
+						<a href=Anao.html>Anão</a>
+						<a href=Elfo.html>Elfo</a>
+						<a href=Halfling.html>Halfling</a>	
+						<a href=Humano.html>Humano</a>
+						<a href=Draconato.html>Draconato</a>
+						<a href=Gnomo.html>Gnomo</a>
+						<a href=Meio-Elfo.html>Meio-Elfo</a>
+						<a href=Meio-Orc.html>Meio-Orc</a>
+						<a href=Tiefling.html>Tiefling</a>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Classes</a>
+						<div class="dropdown-content">
+						<a href=Barbaro.html>Bárbaro</a>
+						<a href=Bardo.html>Bardo</a>
+						<a href=Bruxo.html>Bruxo</a>
+						<a href=Clérigo.html>Clérigo</a>
+						<a href=Druida.html>Druida</a>
+						<a href=Feiticeiro.html>Feiticeiro</a>
+						<a href=Guerreiro.html>Guerreiro</a>
+						<a href=Ladino.html>Ladino</a>
+						<a href=Mago.html>Mago</a>
+						<a href=Monge.html>Monge</a>
+						<a href=Paladino.html>Paladino</a>
+						<a href=Patrulheiro.html>Patrulheiro</a>
+					<li><a href=Mapa.html>Mapa do site</a></li>
+				</ul>	
+				
+				<header>
+					
+				   <center><h1 style="color:Coral";>Feiticeiro</h1></center><br/ > 
+				</header>
+				
+				<nav>
+					<ul>
+						<form action="/action_page.php">
+						  <div class="imgcontainer">
+							<img src="0006.gif" alt="Avatar" class="avatar">
+						  </div>
+
+						  <div class="container">
+							<label><b>Usuário</b></label>
+							<input type="text" placeholder="Enter Username" name="uname" required>
+
+							<label><b>Senha</b></label>
+							<input type="password" placeholder="Enter Password" name="psw" required>
+								
+							<button type="submit">Login</button>
+							<input type="checkbox" checked="checked"> Lembrar
+						  </div>
+
+						  <div class="container" style="background-color:#f1f1f1">
+							<span class="psw">Esqueci a <a href="#">senha?</a></span>
+							<a href="registro.html"><button type="button" class="cancelbtn">Registrar</button>							
+						  </div>
+							<p>  </p><a href="#"><button type="button" onclick="document.getElementById('demo').innerHTML = Date()"> Data e Hora.</button></a></li>
+							<p style="color:White" id="demo"></p>
+						</form>
+					</ul>						
+				</nav>
+
+			<article>				
+					<meutext>
+					<img id="images" src="Feiticeiro.jpg"></br >
+					Com olhos brilhando dourado, uma 
+					humana estica suas mãos e libera o fogo  
+					dracônico que queima em suas veias. A     
+					medida que um inferno consome seus         
+					oponentes, asas de couro surgem nas suas  
+					costas e ela ergue-se no ar. Os longos cabelos balançam com a conjuração  
+					do vento, um meio elfo abre seus braços totalmente  
+					e joga a cabeça para trás. Erguendo-o         
+					momentaneamente do chão, uma onda de magia  
+					surge sobre ele, por meio dele e, fora dele, uma   
+					poderosa explosão de relâmpago.
+					Esgueirando-se atrás de uma estalagmite,
+					uma halfling aponta seu dedo em um troglodita em investida.
+					Uma explosão de chamas é liberada através do seu dedo e atinge a criatura.
+					Ela toma cobertura atrás da formação rochosa com um sorriso,
+					sem saber que sua magia selvagem deixou sua pele com um brilho azulado.
+					Os feiticeiros carregam um patrimônio mágico conferido a
+					eles por uma linhagem exótica, alguma influência de outro mundo ou exposição 
+					a forças cósmicas desconhecidas. Não é possível estudar feitiçaria como se
+					aprende um idioma, assim como não se aprende a viver uma vida lendária.
+					Ninguém escolhe a feitiçaria: os poderes escolhem o feiticeiro. 
+ 
+					
+					</br >
+					</br >
+					<h3>MAGIA BRUTA</h3>
+					A magia é parte de todo feiticeiro, inundando corpo, mente e espirito com um poder latente que espera para ser dominado.
+					Alguns feiticeiro carregam magia que emerge de uma antiga linhagem infundida com a magia dos dragões. Outros carregam uma magia bruta,
+					incontrolável dentro de si, uma tormenta caótica que se manifesta de formas inexplicáveis. A aparência dos poderes de feitiçaria
+					são vastamente imprevisíveis. Algumas linhagens dracônicas produzem apenas um feiticeiro por geração, porém, em outras linhas de descendência,
+					todos os indivíduos serão feiticeiros. A maior parte do tempo, os talentos de feitiçaria aparecem aparentemente ao acaso.
+					Alguns feiticeiros não conseguem determinar a origem do seu poder, enquanto outros o relacionam com estranhos eventos de suas vidas. 
+					O toque de um corruptor, a bênção de uma dríade no nascimento de um bebê ou experimentar a água de uma fonte misteriosa podem conceder 
+					o dom da feitiçaria. Também é possível adquirir esse dom de uma divindade da magia, da exposição as forças elementais dos Planos Interiores 
+					ou do caos alucinante do Limbo ou ao vislumbrar o funcionamento interno da realidade. Os feiticeiros não veem serventia em grimórios ou antigos
+					tomos de conhecimento místico buscados pelos magos, nem buscam um patrono para conceder-lhes suas magias, como um bruxo faz. Ao aprender a 
+					explorar e canalizar sua própria magia inata, eles descobrem novas e incríveis formas de liberar esse poder.  
+					
+					<h3>PODERES INEXPLICÁVEIS </h3>
+					Os feiticeiros são raros no mundo e é incomum encontrar um feiticeiro que não esteja envolvido na vida de aventuras 
+					de alguma forma. Pessoas com poder mágico fluindo em suas veias descobrem cedo que o poder não gosta de ficar quieto.
+					A magia de um feiticeiro gosta de ser exercida e tem uma tendência de fluir de maneiras imprevisíveis se não for chamada. 
+					Muitas vezes, os feiticeiros tem motivações obscuras ou quixotescas que os leva a aventuras.  
+					Alguns buscam uma maior compreensão da força mágica que os infunde ou a resposta do mistério de sua origem. 
+					Outros, esperam encontrar uma forma de se livrar dele ou de liberar seu potencial máximo. Independente dos seus 
+					objetivos, os feiticeiros são tão uteis para um grupo de aventureiros quanto os magos, compensando a falta de variedade
+					de conhecimento mágico com uma enorme flexibilidade no uso das magias que eles conhecem. 
+ 					
+					<h3>CRIANDO UM FEITICEIRO</h3>
+					A pergunta mais importante a se considerar quando estiver criando seu feiticeiro é a origem do seu poder.
+					Quando começar o seu personagem, você irá escolher uma origem que o vincula a uma linhagem dracônica ou a
+					influência da magia selvagem, mas a fonte exata do seu poder cabe a você decidir. É uma maldição de família,
+					passada a você de um ancestral distante? Ou algum evento extraordinário não apenas abençoou você com magia inerente 
+					mas também deixou uma cicatriz?  Como você se sente em relação ao poder mágico que corre através de você? Você o abraçou,
+					tentando dominá-lo ou deleita-se com sua natureza imprevisível? Ele é uma bênção ou uma maldição?
+					Você o buscava ou foi ele que te encontrou? Você teve a opção de recusá-lo ou você queria ter tido? O que você pretende fazer com ele? 
+					Talvez você creia que esse poder lhe foi dado para algum propósito maior. Ou você pode decidir que esse poder lhe dá o 
+					direito de fazer o que quiser, de tomar o que você quer daqueles que não possuem tal poder. Talvez seu poder 
+					ligue você a um poderoso individuo no mundo – a criatura feérica que abençoou você no nascimento, o dragão que colocou uma gota de 
+					seu sangue em suas veias, o lich que criou você através de um experimento ou a divindade que escolheu você para carregar seu poder.
+					
+					
+					</br ><video width="420" height="340" controls> <source src="Feiticeiro.mp4" type="video/mp4"></video></br >
+ 
+					Fonte: <a href="https://www.youtube.com/channel/UCTE8d9Wa8vesRNpQI4CbvWg/featured"	style="color:white">Vertente Geek</a>
+					</meutext>
+			</article>
+		</div>
+	</body>
+<html>

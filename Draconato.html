@@ -1,0 +1,333 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<head>
+		<title>D&D </title>
+		<style>
+			form 	
+			{
+			border: 3px solid #f1f1f1;
+			}
+			li 
+			{
+				float: left;
+			}
+
+			li a, .dropbtn 
+			{
+				display: inline-block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+
+			li a:hover, .dropdown:hover .dropbtn 
+			{
+				background-color: red;
+			}
+
+			li.dropdown 
+			{
+				display: inline-block;
+			}
+
+			.dropdown-content 
+			{
+				display: none;
+				position: absolute;
+				background-color: #f9f9f9;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				z-index: 1;
+			}
+
+			.dropdown-content a 
+			{
+				color: black;
+				padding: 12px 16px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+
+			.dropdown-content a:hover {background-color: #f1f1f1}
+
+			.dropdown:hover .dropdown-content 
+			{
+				display: block;
+			}
+			input[type=text], input[type=password] 
+			{
+				width: 90%;
+				padding: 12px 20px;
+				margin: 8px 0;
+				display: inline-block;
+				border: 1px solid #ccc;
+				box-sizing: border-box;
+			}
+
+			button 
+			{
+				background-color: #4CAF50;
+				color: white;
+				padding: 5px 10px;
+				margin: 2px 0;
+				border: none;
+				cursor: pointer;
+				width: 91%;
+			}
+
+			button:hover 
+			{
+				opacity: 0.8;
+			}
+
+			.cancelbtn 
+			{
+				width: auto;
+				padding: 10px 10px;
+				background-color: #f44336;
+			}
+
+			.imgcontainer 
+			{
+				text-align: center;
+				margin: 20px 0 10px 0;
+			}
+
+			img.avatar 
+			{
+				width: 50%;
+				border-radius: 50%;
+			}
+
+			.container 
+			{
+				padding: 16px;
+			}
+
+			span.psw 
+			{
+				float: right;
+				padding-top: 16px;
+			}
+
+			
+			@media screen and (max-width: 300px) 
+			{
+				span.psw {
+				   display: block;
+				   float: none;
+				}
+				.cancelbtn {
+				   width: 100%;
+				}
+			}
+			
+			div.container 
+			{
+				width: 90%;
+				border: 0px solid gray;
+			}
+			
+			ul 
+			{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+			}
+
+			li
+			{
+				float: left;
+			}
+
+			
+			header
+			{
+				padding: 5em;
+				color: white;
+				background-image: url("Backgif2.gif");
+				clear: left;
+				text-align: center;
+			}
+
+			nav 
+			{
+				float: left;
+				max-width: 260px;
+				margin: 10px;
+				padding: 1em;
+			}
+
+			nav ul 
+			{
+				list-style-type: none;
+				padding: 0;
+			}
+			   
+			nav ul a 
+			{
+				text-decoration: none;
+				
+			}
+
+			article 
+			{
+			
+				margin-left: 170px;
+				border-left: 1px solid gray;
+				padding: 1em;
+				overflow: hidden;
+			}
+			
+			meutext
+			{
+				text-shadow: 2px 1px black;
+				color:white;
+			}
+			meutitulo
+			{
+				text-shadow: 2px 1px black;
+				color:Coral;
+			}
+			
+			body 
+			{
+				background-image: url("Background.jpg");
+			
+			}
+			audio
+			{
+				opacity: 0.5;
+				width:1250px
+			}
+			#images
+			{
+				width: 250px;
+				height: 300px;
+			}		
+			
+			
+		</style>
+		<audio autoplay>
+			<source src="Song.mp3" type="audio/mpeg">
+.
+		</audio>
+		</head>
+		<body>
+		
+			<div class="container">
+			
+				<ul>
+					<li><a class="active" href=index.html>Inicio</a></li>
+					<li><a href=Memes.html>Memes</a></li>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Raças</a>
+						<div class="dropdown-content">
+						<a href=Anao.html>Anão</a>
+						<a href=Elfo.html>Elfo</a>
+						<a href=Halfling.html>Halfling</a>	
+						<a href=Humano.html>Humano</a>
+						<a href=Draconato.html>Draconato</a>
+						<a href=Gnomo.html>Gnomo</a>
+						<a href=Meio-Elfo.html>Meio-Elfo</a>
+						<a href=Meio-Orc.html>Meio-Orc</a>
+						<a href=Tiefling.html>Tiefling</a>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Classes</a>
+						<div class="dropdown-content">
+						<a href=Barbaro.html>Bárbaro</a>
+						<a href=Bardo.html>Bardo</a>
+						<a href=Bruxo.html>Bruxo</a>
+						<a href=Clérigo.html>Clérigo</a>
+						<a href=Druida.html>Druida</a>
+						<a href=Feiticeiro.html>Feiticeiro</a>
+						<a href=Guerreiro.html>Guerreiro</a>
+						<a href=Ladino.html>Ladino</a>
+						<a href=Mago.html>Mago</a>
+						<a href=Monge.html>Monge</a>
+						<a href=Paladino.html>Paladino</a>
+						<a href=Patrulheiro.html>Patrulheiro</a>
+					<li><a href=Mapa.html>Maps do site</a></li>
+				</ul>	
+				
+				<header>
+					
+				   <center><h1 style="color:Coral";>Draconato</h1></center><br/ > 
+				</header>
+				
+				<nav>
+					<ul>
+						<form action="/action_page.php">
+						  <div class="imgcontainer">
+							<img src="0006.gif" alt="Avatar" class="avatar">
+						  </div>
+
+						  <div class="container">
+							<label><b>Usuário</b></label>
+							<input type="text" placeholder="Enter Username" name="uname" required>
+
+							<label><b>Senha</b></label>
+							<input type="password" placeholder="Enter Password" name="psw" required>
+								
+							<button type="submit">Login</button>
+							<input type="checkbox" checked="checked"> Lembrar
+						  </div>
+
+						  <div class="container" style="background-color:#f1f1f1">
+							<span class="psw">Esqueci a <a href="#">senha?</a></span>
+							<a href="registro.html"><button type="button" class="cancelbtn">Registrar</button>							
+						  </div>
+							<p>  </p><a href="#"><button type="button" onclick="document.getElementById('demo').innerHTML = Date()"> Data e Hora.</button></a></li>
+							<p style="color:White" id="demo"></p>
+						</form>
+					</ul>						
+				</nav>
+
+			<article>				
+					<meutext>
+					<img id="images" src="Draconato.jpg"></br >
+					<i>SEU PAI FICOU NA PRIMEIRA DAS TRÊS ESCADAS QUE levavam ao portal, imóvel. As escamas de sua face tinha ficado pálidas ao redor das bordas,
+					mas Clanless Mehen ainda aparentava ser capaz de derrubar um urso atroz apenas com suas mãos. Ela já não usava sua antiga armadura pesada,
+					substituída por uma armadura de escamas de cor violeta com detalhes prateados brilhantes. Também havia um brasão no seu braço,
+					a marca de uma casa estrangeira. A espada em suas costas era a mesma, aquela que ela carregava mesmo antes de ter encontrado os gêmeos,
+					quando partiu, nos portões de Arush Vayem. 
+					Por toda sua vida, Farideh soube que decifrar as feições de seu pai era uma perícia que ela ainda tinha que aprender. 
+					Um humano que não conseguiria observar a mudança nos olhos dela, Havilar certamente veria apenas a indiferença de um dragão no rosto de Clanless Mehen. 
+					Mas a mudança das escamas, o arco de sua crista, o conjunto de seus olhos, o balbuciar de seus dentes – a face de seu pai dizia muito. Mas cada escama, 
+					dessa vez, parecia completamente imóvel – a indiferença de um dragão, mesmo para Farideh.
+					</br > –Erin M. Evans, O Adversário </i>
+					</br >
+					</br >
+					Descendentes de dragões, como seus nomes demonstram, os draconatos andam orgulhosamente pelo mundo que os saúda com um temor incompreensível.
+					Moldados por deuses dracônicos ou pelos próprios dragões, draconatos originalmente nasceram de ovos de dragão como uma raça única, combinando
+					os melhores atributos de dragões e humanos. Alguns draconatos são servos fieis de dragões verdadeiros, outros formas as fileiras de soldados 
+					em grandes guerras e ainda existem os que encontram-se à toa, sem um objetivo claro na vida. 
+					<h3>ORGULHOSO PARENTESCO DRACÔNICO</h3>
+					Draconatos parecem muito com dragões que estão de pé em forma humanoide, apesar de não possuírem asas nem uma calda.
+					O primeiro draconato possuía escamas de matizes brilhantes combinando com as cores do dragão de que descendia,
+					mas gerações de misturas criaram uma aparência mais uniforme. Suas pequenas escamas finas, normalmente são de cor bronze ou latão, 
+					algumas vezes indo até tons de escarlate, ferrugem, ouro ou cobreesverdeado. Eles são altos e de constituição forte,
+					muitas vezes medindo 1,95 metro de altura e pesando 150 kg ou mais. Suas mãos e pés são fortes, com três dedos de garras curvadas em cada mão.
+					O sangue de um tipo particular de dragão corre fortemente nas veias de alguns clãs de draconatos. Esses draconatos muitas vezes 
+					ostentam escamas de cores mais similares ao seu dragão ancestral – vermelho, verde, azul ou branco brilhantes, preto lustroso ou ouro, 
+					prata, latão, cobre ou bronze metálico reluzente. 
+					<h3>CLÃS AUTOSSUFICIENTES</h3>
+					Para qualquer draconato, o clã é mais importante que sua própria vida. Draconatos devem ter devoção e respeito pelo seu clã acima de tudo,
+					até mesmo dos deuses. A conduta de cada draconato reflete na honra do seu clã, e trazer desonra para o clã pode resultar em expulsão e exílio. 
+					Cada draconato sabe da sua posição e deveres para com o clã e a honra requer manutenção dos laços da sua posição. 
+					Uma busca continua pelo aperfeiçoamento pessoal reflete na autossuficiência da raça como um todo. Draconatos valorizam a 
+					perícia e excelência em todos os ramos. Eles odeiam fracassar e eles se forças a realizar esforços extremos antes de desistir de algo. 
+					Um draconato tem na maestria de uma perícia em particular como um objetivo de vida. Membros de outras raças que partilham do mesmo comprometimento
+					tem facilidade em adquirir o respeito de um draconato. Apesar de todos os draconatos procurarem ser autossuficientes, eles reconhecem que ajuda, 
+					algumas vezes é necessária em situações difíceis. Mas a melhor fonte quando ajuda é necessária é o clã e, quando um clã precisa de ajuda, 
+					eles buscam outros clãs de draconatos antes de procurarem ajuda de outras raças – ou até mesmo dos deuses. 
+					</meutext>
+			</article>
+		</div>
+	</body>
+<html>

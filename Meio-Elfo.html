@@ -1,0 +1,331 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<head>
+		<title>D&D </title>
+		<style>
+			form 	
+			{
+			border: 3px solid #f1f1f1;
+			}
+			li 
+			{
+				float: left;
+			}
+
+			li a, .dropbtn 
+			{
+				display: inline-block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+
+			li a:hover, .dropdown:hover .dropbtn 
+			{
+				background-color: red;
+			}
+
+			li.dropdown 
+			{
+				display: inline-block;
+			}
+
+			.dropdown-content 
+			{
+				display: none;
+				position: absolute;
+				background-color: #f9f9f9;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				z-index: 1;
+			}
+
+			.dropdown-content a 
+			{
+				color: black;
+				padding: 12px 16px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+
+			.dropdown-content a:hover {background-color: #f1f1f1}
+
+			.dropdown:hover .dropdown-content 
+			{
+				display: block;
+			}
+			input[type=text], input[type=password] 
+			{
+				width: 90%;
+				padding: 12px 20px;
+				margin: 8px 0;
+				display: inline-block;
+				border: 1px solid #ccc;
+				box-sizing: border-box;
+			}
+
+			button 
+			{
+				background-color: #4CAF50;
+				color: white;
+				padding: 5px 10px;
+				margin: 2px 0;
+				border: none;
+				cursor: pointer;
+				width: 91%;
+			}
+
+			button:hover 
+			{
+				opacity: 0.8;
+			}
+
+			.cancelbtn 
+			{
+				width: auto;
+				padding: 10px 10px;
+				background-color: #f44336;
+			}
+
+			.imgcontainer 
+			{
+				text-align: center;
+				margin: 20px 0 10px 0;
+			}
+
+			img.avatar 
+			{
+				width: 50%;
+				border-radius: 50%;
+			}
+
+			.container 
+			{
+				padding: 16px;
+			}
+
+			span.psw 
+			{
+				float: right;
+				padding-top: 16px;
+			}
+
+			
+			@media screen and (max-width: 300px) 
+			{
+				span.psw {
+				   display: block;
+				   float: none;
+				}
+				.cancelbtn {
+				   width: 100%;
+				}
+			}
+			
+			div.container 
+			{
+				width: 90%;
+				border: 0px solid gray;
+			}
+			
+			ul 
+			{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+			}
+
+			li
+			{
+				float: left;
+			}
+
+			
+			header
+			{
+				padding: 5em;
+				color: white;
+				background-image: url("Backgif2.gif");
+				clear: left;
+				text-align: center;
+			}
+
+			nav 
+			{
+				float: left;
+				max-width: 260px;
+				margin: 10px;
+				padding: 1em;
+			}
+
+			nav ul 
+			{
+				list-style-type: none;
+				padding: 0;
+			}
+			   
+			nav ul a 
+			{
+				text-decoration: none;
+				
+			}
+
+			article 
+			{
+			
+				margin-left: 170px;
+				border-left: 1px solid gray;
+				padding: 1em;
+				overflow: hidden;
+			}
+			
+			meutext
+			{
+				text-shadow: 2px 1px black;
+				color:white;
+			}
+			meutitulo
+			{
+				text-shadow: 2px 1px black;
+				color:Coral;
+			}
+			
+			body 
+			{
+				background-image: url("Background.jpg");
+			
+			}
+			audio
+			{
+				opacity: 0.5;
+				width:1250px
+			}
+			#images
+			{
+				width: 250px;
+				height: 300px;
+			}		
+			
+			
+		</style>
+		<audio autoplay>
+			<source src="Song.mp3" type="audio/mpeg">
+.
+		</audio>
+		</head>
+		<body>
+		
+			<div class="container">
+			
+				<ul>
+					<li><a class="active" href=index.html>Inicio</a></li>
+					<li><a href=Memes.html>Memes</a></li>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Raças</a>
+						<div class="dropdown-content">
+						<a href=Anao.html>Anão</a>
+						<a href=Elfo.html>Elfo</a>
+						<a href=Halfling.html>Halfling</a>	
+						<a href=Humano.html>Humano</a>
+						<a href=Draconato.html>Draconato</a>
+						<a href=Gnomo.html>Gnomo</a>
+						<a href=Meio-Elfo.html>Meio-Elfo</a>
+						<a href=Meio-Orc.html>Meio-Orc</a>
+						<a href=Tiefling.html>Tiefling</a>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Classes</a>
+						<div class="dropdown-content">
+						<a href=Barbaro.html>Bárbaro</a>
+						<a href=Bardo.html>Bardo</a>
+						<a href=Bruxo.html>Bruxo</a>
+						<a href=Clérigo.html>Clérigo</a>
+						<a href=Druida.html>Druida</a>
+						<a href=Feiticeiro.html>Feiticeiro</a>
+						<a href=Guerreiro.html>Guerreiro</a>
+						<a href=Ladino.html>Ladino</a>
+						<a href=Mago.html>Mago</a>
+						<a href=Monge.html>Monge</a>
+						<a href=Paladino.html>Paladino</a>
+						<a href=Patrulheiro.html>Patrulheiro</a>
+					<li><a href=Mapa.html>Maps do site</a></li>
+				</ul>	
+				
+				<header>
+					
+				   <center><h1 style="color:Coral";>Meio-Elfo</h1></center><br/ > 
+				</header>
+				
+				<nav>
+					<ul>
+						<form action="/action_page.php">
+						  <div class="imgcontainer">
+							<img src="0006.gif" alt="Avatar" class="avatar">
+						  </div>
+
+						  <div class="container">
+							<label><b>Usuário</b></label>
+							<input type="text" placeholder="Enter Username" name="uname" required>
+
+							<label><b>Senha</b></label>
+							<input type="password" placeholder="Enter Password" name="psw" required>
+								
+							<button type="submit">Login</button>
+							<input type="checkbox" checked="checked"> Lembrar
+						  </div>
+
+						  <div class="container" style="background-color:#f1f1f1">
+							<span class="psw">Esqueci a <a href="#">senha?</a></span>
+							<a href="registro.html"><button type="button" class="cancelbtn">Registrar</button>							
+						  </div>
+							<p>  </p><a href="#"><button type="button" onclick="document.getElementById('demo').innerHTML = Date()"> Data e Hora.</button></a></li>
+							<p style="color:White" id="demo"></p>
+						</form>
+					</ul>						
+				</nav>
+
+			<article>				
+					<meutext> 
+					<img id="images" src="Meio-Elfo.jpg"></br >
+					<i>FLINT OLHAVA PARA O SOL POENTE. ELE IMAGINOU TER VISTO a figura de um homem caminhando ao longo do caminho.
+					Erguendo-se, Flint recuou para a sombra de um alto pinheiro para ver melhor. As passadas do homem eram marcadas por uma graça natural 
+					– uma graça élfica, Flint diria; No entanto, o corpo do homem espessura e musculatura de um humano, enquanto que a barba 
+					definitivamente era de natureza humana. Todos os anões podiam ver que a face do homem por baixo do capuz verde tinha uma 
+					pele bronzeada e uma barba marromavermelhada. Um arco longo estava preso em um dos seus ombros e uma espada descansava no seu lado esquerdo. 
+					Ele estava vestido em couro macio, finamente tecido em intrincados desenhos amados pelos elfos. 
+					Mas, nenhum elfo no mundo de Krynn poderia ter uma barba... nenhum elfo, mas... “Tanis?” disse Flint, hesitantemente,
+					à medida que o homem se aproximava.  
+					‘Eu mesmo.” O recém-chegado de rosto barbudo acompanhado por um largo sorriso. Ele abriu seus braços e, antes que o anão pudesse pará-lo,
+					envolveu Flint em um abraço que levantou-o do chão. O anão apertou forte seu velho amigo por um instante, depois, lembrando-se da sua compostura,
+					se contorceu e se livrou do abraço do meioelfo.</br >–Margaret Weis e Tracy Hickman, Dragões do Crepúsculo de Outono </i>
+					</br >
+					</br >
+					Vagando entre dois mundos mas, na verdade, não pertencendo a nenhum dos dois, meio-elfos combinam o que alguns dizem ser as melhores qualidades 
+					dos seus parentes elfos e humanos: a curiosidade, inventividade e ambição humanas temperadas pelos sensos refinados, amor a natureza e gostos
+					artísticos dos elfos. Alguns meio-elfos vivem entre os humanos, separados por suas diferenças emocionais e físicas, vendo seus amigos e amores
+					envelhecer enquanto o tempo malmente os toca. Outros vivem entre os elfos, crescendo impacientes à medida que atingem a maturidade nos reinos 
+					élficos intermináveis, enquanto seus amigos continuam a viver como crianças. Muitos meio-elfos, incapazes de se encaixar em nenhuma dessas sociedades, 
+					escolhem uma vida solitária, vagando ou se juntando a outros desafortunados e adentrando uma vida de aventura. 
+					<h3>DE DOIS MUNDOS </h3>
+					Para os humanos, os meio-elfos parecem elfos, e para os elfos, eles parecem humanos. Na aparência, eles estão entre ambos os parentes, 
+					já que eles não são nem tão esbeltos quanto os elfos nem tão largos quanto os humanos. Eles medem entre 1,5 metro e 1,8 metro de altura
+					e pesam entre 50 kg e 90 kg, sendo os homens apenas um pouco mais altos e pesados que as mulheres. Meio-elfos possuem pelos faciais e, 
+					as vezes, deixam a barba crescer para esconder sua ancestralidade élfica. A cor e características dos meio-elfos reside entre seus parentes
+					humanos e elfos e possui uma variedade maior até que a encontrada entre ambas as raças. Eles tendem a ter os olhos dos seus pais elfos. 
+					<h3>DIPLOMATAS OU ANDARILHOS</h3>
+					 Meio-elfos não possuem terra própria, no entanto, eles são bem-vindos em cidades humanas e um pouco menos bem recebidos em florestas élficas.
+					 Em cidades grandes, em regiões em que elfos e humanos costumam interagir, meio-elfos podem ser numerosos o suficiente para formar pequenas
+					 comunidades entre eles. Eles gostam da companhia de outros meio-elfos, o único povo que realmente entende o que é viver entre dois mundos.
+					 Na maior parte do mundo, no entanto, meio-elfos são incomuns o suficiente ao ponto de que um pode viver anos sem encontrar outro. 
+					 Alguns meio-elfos preferem evitar completamente companhias, vagando pela natureza como caçadores, mateiros, patrulheiros ou aventureiros,
+					 visitando a civilização em raras ocasiões. Como os elfos, eles são guiados pela sede por viagens que acompanha sua longevidade. Outros,
+					 em contraste, imergem no seio da sociedade, aproveitando-se do seu carisma e perícias sociais efetuando papeis diplomáticos ou de vigaristas. 
+					</meutext>
+			</article>
+		</div>
+	</body>
+<html>

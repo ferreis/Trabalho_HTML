@@ -1,0 +1,348 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<head>
+		<title>D&D </title>
+		<style>
+			form 	
+			{
+			border: 3px solid #f1f1f1;
+			}
+			li 
+			{
+				float: left;
+			}
+
+			li a, .dropbtn 
+			{
+				display: inline-block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+
+			li a:hover, .dropdown:hover .dropbtn 
+			{
+				background-color: red;
+			}
+
+			li.dropdown 
+			{
+				display: inline-block;
+			}
+
+			.dropdown-content 
+			{
+				display: none;
+				position: absolute;
+				background-color: #f9f9f9;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				z-index: 1;
+			}
+
+			.dropdown-content a 
+			{
+				color: black;
+				padding: 12px 16px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+
+			.dropdown-content a:hover {background-color: #f1f1f1}
+
+			.dropdown:hover .dropdown-content 
+			{
+				display: block;
+			}
+			input[type=text], input[type=password] 
+			{
+				width: 90%;
+				padding: 12px 20px;
+				margin: 8px 0;
+				display: inline-block;
+				border: 1px solid #ccc;
+				box-sizing: border-box;
+			}
+
+			button 
+			{
+				background-color: #4CAF50;
+				color: white;
+				padding: 5px 10px;
+				margin: 2px 0;
+				border: none;
+				cursor: pointer;
+				width: 91%;
+			}
+
+			button:hover 
+			{
+				opacity: 0.8;
+			}
+
+			.cancelbtn 
+			{
+				width: auto;
+				padding: 10px 10px;
+				background-color: #f44336;
+			}
+
+			.imgcontainer 
+			{
+				text-align: center;
+				margin: 20px 0 10px 0;
+			}
+
+			img.avatar 
+			{
+				width: 50%;
+				border-radius: 50%;
+			}
+
+			.container 
+			{
+				padding: 16px;
+			}
+
+			span.psw 
+			{
+				float: right;
+				padding-top: 16px;
+			}
+
+			
+			@media screen and (max-width: 300px) 
+			{
+				span.psw {
+				   display: block;
+				   float: none;
+				}
+				.cancelbtn {
+				   width: 100%;
+				}
+			}
+			
+			div.container 
+			{
+				width: 90%;
+				border: 0px solid gray;
+			}
+			
+			ul 
+			{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+			}
+
+			li
+			{
+				float: left;
+			}
+
+			
+			header
+			{
+				padding: 5em;
+				color: white;
+				background-image: url("Backgif2.gif");
+				clear: left;
+				text-align: center;
+			}
+
+			nav 
+			{
+				float: left;
+				max-width: 260px;
+				margin: 10px;
+				padding: 1em;
+			}
+
+			nav ul 
+			{
+				list-style-type: none;
+				padding: 0;
+			}
+			   
+			nav ul a 
+			{
+				text-decoration: none;
+				
+			}
+
+			article 
+			{
+			
+				margin-left: 170px;
+				border-left: 1px solid gray;
+				padding: 1em;
+				overflow: hidden;
+			}
+			
+			meutext
+			{
+				text-shadow: 2px 1px black;
+				color:white;
+			}
+			meutitulo
+			{
+				text-shadow: 2px 1px black;
+				color:Coral;
+			}
+			
+			body 
+			{
+				background-image: url("Background.jpg");
+			
+			}
+			audio
+			{
+				opacity: 0.5;
+				width:1250px
+			}
+			#images
+			{
+				width: 250px;
+				height: 300px;
+			}		
+			
+			
+		</style>
+		<audio autoplay>
+			<source src="Song.mp3" type="audio/mpeg">
+.
+		</audio>
+		</head>
+		<body>
+		
+			<div class="container">
+			
+				<ul>
+					<li><a class="active" href=index.html>Inicio</a></li>
+					<li><a href=Memes.html>Memes</a></li>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Raças</a>
+						<div class="dropdown-content">
+						<a href=Anao.html>Anão</a>
+						<a href=Elfo.html>Elfo</a>
+						<a href=Halfling.html>Halfling</a>	
+						<a href=Humano.html>Humano</a>
+						<a href=Draconato.html>Draconato</a>
+						<a href=Gnomo.html>Gnomo</a>
+						<a href=Meio-Elfo.html>Meio-Elfo</a>
+						<a href=Meio-Orc.html>Meio-Orc</a>
+						<a href=Tiefling.html>Tiefling</a>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Classes</a>
+						<div class="dropdown-content">
+						<a href=Barbaro.html>Bárbaro</a>
+						<a href=Bardo.html>Bardo</a>
+						<a href=Bruxo.html>Bruxo</a>
+						<a href=Clérigo.html>Clérigo</a>
+						<a href=Druida.html>Druida</a>
+						<a href=Feiticeiro.html>Feiticeiro</a>
+						<a href=Guerreiro.html>Guerreiro</a>
+						<a href=Ladino.html>Ladino</a>
+						<a href=Mago.html>Mago</a>
+						<a href=Monge.html>Monge</a>
+						<a href=Paladino.html>Paladino</a>
+						<a href=Patrulheiro.html>Patrulheiro</a>
+					<li><a href=Mapa.html>Maps do site</a></li>
+				</ul>	
+				
+				<header>
+					
+				   <center><h1 style="color:Coral";>Halfling</h1></center><br/ > 
+				</header>
+				
+				<nav>
+					<ul>
+						<form action="/action_page.php">
+						  <div class="imgcontainer">
+							<img src="0006.gif" alt="Avatar" class="avatar">
+						  </div>
+
+						  <div class="container">
+							<label><b>Usuário</b></label>
+							<input type="text" placeholder="Enter Username" name="uname" required>
+
+							<label><b>Senha</b></label>
+							<input type="password" placeholder="Enter Password" name="psw" required>
+								
+							<button type="submit">Login</button>
+							<input type="checkbox" checked="checked"> Lembrar
+						  </div>
+
+						  <div class="container" style="background-color:#f1f1f1">
+							<span class="psw">Esqueci a <a href="#">senha?</a></span>
+							<a href="registro.html"><button type="button" class="cancelbtn">Registrar</button>							
+						  </div>
+							<p>  </p><a href="#"><button type="button" onclick="document.getElementById('demo').innerHTML = Date()"> Data e Hora.</button></a></li>
+							<p style="color:White" id="demo"></p>
+						</form>
+					</ul>						
+				</nav>
+
+			<article>				
+					<meutext>
+					<img id="images" src="Halfling.jpg"></br >
+					<i>RÉGIS, O HALFLING, O ÚNICO DE SUA ESPÉCIE NUM RAIO DE centenas de quilômetros, 
+					prendeu os dedos por trás da cabeça e recostou-se contra a capa musgosa do tronco da árvore.
+					Régis era baixo, mesmo para os padrões de sua diminuta raça, e a lanugem de suas madeixas
+					castanhas e encaracoladas mal ultrapassava a marca de um metro. Mas a barriga alargava-se abundantemente, 
+					devido a seu amor por uma boa refeição — ou várias delas, dependendo das oportunidades que se apresentassem.
+					O galho retorcido que lhe servia como vara de pesca erguia-se acima dele, seguro entre dois dos seus peludos dedos do pé,
+					e inclinava-se sobre as águas plácidas do lago, perfeitamente espelhado na superfície vítrea do Maer Dualdon.
+					</br >– R. A. Salvatore, A Estilha de Cristal</i>					
+					</br >
+					</br >
+					Os confortos de um lar são os objetivos da maioria dos halflings: um lugar para viver em paz e sossego,
+					longe de monstros saqueadores e embates de exércitos, com um fogo aceso e uma refeição generosa, e também uma bebida fina e boa conversa. 
+					Embora alguns halflings vivam seus dias em remotas comunidades agrícolas, outros formam bandos nômades que viajam constantemente, 
+					atraídos pela estrada afora e o vasto horizonte para descobrir as maravilhas de novas terras e povos. 
+					Mas mesmo esses halflings andarilhos amam a paz, a comida, uma lareira e um lar, mesmo que o lar seja em uma carruagem,
+					empurrada ao longo de uma estrada de terra, ou uma balsa flutuando rio abaixo.  
+					<h3>PEQUENOS E PRÁTICOS</h3>
+					Os pequeninos halflings sobrevivem em um mundo cheio de criaturas maiores ao evitar serem notados, ou evitando o combate direto. 
+					Com uns 90 centímetros de altura, eles parecem inofensivos e assim conseguiram sobreviver por séculos às sombras dos impérios e à 
+					margem de guerras e conflitos políticos. Eles normalmente são robustos, pesando entre 20 kg e 22,5 kg. A pele dos halflings varia
+					do bronzeado ao pálido com um tom corado, e seu cabelo é geralmente castanho ou castanho claro e ondulado. Eles têm olhos castanhos
+					ou amendoados. Halflings do sexo masculino muitas vezes ostentam costeletas longas, mas barbas são raras entre eles e bigodes são 
+					quase inexistentes. Eles gostam de usar roupas simples, confortáveis e práticas, preferindo as cores claras. 
+					A praticidade dos halflings se estende para além de suas roupas. Eles se preocupam com as necessidades básicas
+					e os prazeres simples, e não são inclinados à ostentação. Mesmo o mais rico dos halflings mantém seus tesouros
+					trancados em um porão, em vez de expostos à vista de todos. Eles possuem um talento especial para encontrar a 
+					solução mais simples para um problema e têm pouca paciência para indecisões. 
+					<h3>GENEROSOS E CURIOSOS</h3>
+					Halflings são um povo afável e alegre. Eles apreciam os laços de família e amizade, bem como o conforto do lar e da casa, nutrindo poucos sonhos 
+					de ouro e glória. Mesmo os aventureiros que existem entre eles normalmente aventuram-se no mundo por razões de comunidade, 
+					amizade, desejo de viajar ou curiosidade. Eles amam descobrir coisas novas, até mesmo as mais simples, tais como uma comida 
+					exótica ou um estilo estranho de vestuário. Halflings são facilmente movidos pela piedade e detestam ver qualquer ser vivo sofrer. 
+					Eles são generosos, partilhando alegremente o que eles possuem, mesmo em épocas de vacas magras. 
+					<h3>MISTURANDO-SE NA MULTIDÃO</h3>
+					Halflings são adeptos de viver em comunidades de humanos, anões ou elfos, tornando-se valiosos e bemvindos. 
+					A combinação de sua inerente furtividade e sua natureza modesta ajudam os halflings a evitar uma atenção indesejada.
+					Os halflings trabalham facilmente com os outros, e são leais a seus amigos, sejam eles halflings ou não.
+					Eles podem demonstrar uma notável ferocidade quando seus amigos, familiares, ou comunidades são ameaçadas. 
+					<h3>JOVIALIDADE PASTORIL</h3>
+					A maioria dos halflings vive em comunidades pequenas e pacíficas com grandes fazendas e bosques preservados.
+					Eles nunca construíram um reino próprio, ou mesmo dominaram muitas terras além de seus tranquilos condados.
+					Eles geralmente não reconhecem qualquer tipo de nobreza ou realeza halfling, ao invés disso buscam conselhos 
+					com os anciãos de suas famílias para guiá-los. As famílias preservam suas maneiras tradicionais ao despeito da 
+					ascensão e queda de impérios. Muitos halflings vivem entre outras raças onde seu trabalho duro e sua lealdade 
+					os oferece recompensas abundantes e conforto. Algumas comunidades halflings preferem viajar como forma de vida, 
+					dirigindo carruagens ou guiando barcos de lugar em lugar sem manter um lar permanente. 
+					<h3>EXPLORANDO OPORTUNIDADES</h3>
+					Halflings geralmente partem para o caminho do aventureiro para defender suas comunidades, apoiar seus amigos, 
+					ou explorar um mundo grande e cheio de maravilhas. Para eles, aventurar-se não é apenas uma carreira, 
+					é mais uma oportunidade ou às vezes uma necessidade. 
+					</meutext>
+			</article>
+		</div>
+	</body>
+<html>
